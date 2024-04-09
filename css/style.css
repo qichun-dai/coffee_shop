@@ -29,13 +29,6 @@ footer{
 	flex-wrap: wrap;
 }
 
-.item{
-	width: 50%;
-	height: 70vh;
-	flex-basis: 500px;
-	min-width: 300px;
-}
-
 #map{
 	height: 70vh;
 	border-radius: 10px;
@@ -43,20 +36,19 @@ footer{
 
 .grid_container{
 	display: grid;
-	grid-template-rows: 1fr 7fr;
-	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr 8fr;
+	grid-template-columns: 1fr 1fr;
 	gap: 1em;
+	margin: 20px;
 
 }
 
 .grid_item{
 	background-color: lightblue;
 	border-radius: 10px;
+	min-width: 500px;
 }
 
-.table{
-	grid-column: span 2;
-}
 
 .footer_container{
 	display: flex;
