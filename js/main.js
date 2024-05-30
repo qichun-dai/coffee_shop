@@ -1,3 +1,9 @@
+import { getLocations } from './get_locations.js';
+
+
+coffee = getLocations().catch(error => console.error('Error:', error));
+
+console.log(coffee);
 
 document.addEventListener("DOMContentLoaded", function() {
     // The Google Places API endpoint (adjust this based on your backend proxy)
@@ -39,3 +45,4 @@ document.addEventListener("DOMContentLoaded", function() {
     // Fetching coffee places in New York for this example
     searchPlaces('coffee shops in New York');
 });
+
