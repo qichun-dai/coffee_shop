@@ -1,0 +1,344 @@
+{
+  "places": [
+    {
+      "formattedAddress": "Van der Helstplein 10H, 1072 PH Amsterdam, Netherlands",
+      "rating": 4.9,
+      "userRatingCount": 196,
+      "displayName": {
+        "text": "Elevate Coffee Lab",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609f24dd199fd:0x678a67fac6505a98!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=7460890059459287704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609f24dd199fd:0x678a67fac6505a98!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609f24dd199fd:0x678a67fac6505a98!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609f24dd199fd:0x678a67fac6505a98!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Amstel 47, 1011 PW Amsterdam, Netherlands",
+      "rating": 4.9,
+      "userRatingCount": 177,
+      "displayName": {
+        "text": "Alpha coffee Amsterdam",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609f9e82eccd9:0x453505067de6bfbf!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=4986897687822909375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609f9e82eccd9:0x453505067de6bfbf!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609f9e82eccd9:0x453505067de6bfbf!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609f9e82eccd9:0x453505067de6bfbf!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Westerstraat 3, 1015 LT Amsterdam, Netherlands",
+      "rating": 4.8,
+      "userRatingCount": 870,
+      "displayName": {
+        "text": "Luuk's Coffee Noordermarkt",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609e814a40063:0x994abd1b517b5110!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=11045848961108365584&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609e814a40063:0x994abd1b517b5110!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609e814a40063:0x994abd1b517b5110!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609e814a40063:0x994abd1b517b5110!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Kostverlorenstraat 11H, 1052 GS Amsterdam, Netherlands",
+      "rating": 5,
+      "userRatingCount": 172,
+      "displayName": {
+        "text": "WesterPerk Coffee & Shop",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609ad039e8cab:0x7044b10a0ba3bf9d!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=8089785487367323549&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609ad039e8cab:0x7044b10a0ba3bf9d!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609ad039e8cab:0x7044b10a0ba3bf9d!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609ad039e8cab:0x7044b10a0ba3bf9d!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Bellamyplein 16H, 1053 AS Amsterdam, Netherlands",
+      "rating": 4.8,
+      "userRatingCount": 116,
+      "displayName": {
+        "text": "Dak Showroom by Dak Coffee Roasters",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c5e3f1807d2683:0x8c98e27e66ae0fa4!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=10131096394286370724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e3f1807d2683:0x8c98e27e66ae0fa4!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c5e3f1807d2683:0x8c98e27e66ae0fa4!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e3f1807d2683:0x8c98e27e66ae0fa4!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Kerkstraat 96H, 1017 GP Amsterdam, Netherlands",
+      "rating": 4.4,
+      "userRatingCount": 1846,
+      "displayName": {
+        "text": "Bocca Coffee",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609dc41cac6d7:0xfc6a1e41168ca97a!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=18188383309989194106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609dc41cac6d7:0xfc6a1e41168ca97a!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609dc41cac6d7:0xfc6a1e41168ca97a!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609dc41cac6d7:0xfc6a1e41168ca97a!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Boerhaaveplein 3, 1091 DH Amsterdam, Netherlands",
+      "rating": 4.7,
+      "userRatingCount": 547,
+      "displayName": {
+        "text": "Five Ways Coffee Roasters",
+        "languageCode": "en"
+      },
+      "primaryType": "brunch_restaurant",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609086adfaddf:0x740a8f162873a079!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=8361652983497465977&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609086adfaddf:0x740a8f162873a079!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609086adfaddf:0x740a8f162873a079!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609086adfaddf:0x740a8f162873a079!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Van Woustraat 113, 1074 AH Amsterdam, Netherlands",
+      "rating": 4.8,
+      "userRatingCount": 235,
+      "displayName": {
+        "text": "Coffee Bru",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c6094d5e2e4e83:0x127a09c09bdd5d45!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=1331387362694749509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c6094d5e2e4e83:0x127a09c09bdd5d45!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c6094d5e2e4e83:0x127a09c09bdd5d45!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c6094d5e2e4e83:0x127a09c09bdd5d45!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Kinkerstraat 186, 1053 CG Amsterdam, Netherlands",
+      "rating": 4.6,
+      "userRatingCount": 305,
+      "displayName": {
+        "text": "Five Ways Coffee Roasters",
+        "languageCode": "en"
+      },
+      "primaryType": "cafe",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c5e3559dc4d74d:0x5a6bdc30007d0946!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=6515543384646289734&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e3559dc4d74d:0x5a6bdc30007d0946!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c5e3559dc4d74d:0x5a6bdc30007d0946!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e3559dc4d74d:0x5a6bdc30007d0946!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Bakkerstraat 5, 3511 JV Utrecht, Netherlands",
+      "rating": 4.8,
+      "userRatingCount": 456,
+      "displayName": {
+        "text": "Darras Coffee Roasters Utrecht",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c66f6944baac2b:0xaa6bbbe5bb78b552!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=12280115404322944338&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c66f6944baac2b:0xaa6bbbe5bb78b552!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c66f6944baac2b:0xaa6bbbe5bb78b552!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c66f6944baac2b:0xaa6bbbe5bb78b552!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Voorstraat 44-46, 3512 AP Utrecht, Netherlands",
+      "rating": 4.7,
+      "userRatingCount": 1050,
+      "displayName": {
+        "text": "The Village Coffee & Music",
+        "languageCode": "nl"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c66f44350f2a5f:0xb2998a46228a307d!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=12869469444019728509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c66f44350f2a5f:0xb2998a46228a307d!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c66f44350f2a5f:0xb2998a46228a307d!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c66f44350f2a5f:0xb2998a46228a307d!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Kruislaan 259A, 1098 SH Amsterdam, Netherlands",
+      "rating": 5,
+      "userRatingCount": 11,
+      "displayName": {
+        "text": "noon coffee & culture",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c60930342f2333:0xf38f3ff14a66198c!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=17550316578453985676&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c60930342f2333:0xf38f3ff14a66198c!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c60930342f2333:0xf38f3ff14a66198c!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c60930342f2333:0xf38f3ff14a66198c!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Korte Koningsstraat 13 H, 1011 EX Amsterdam, Netherlands",
+      "rating": 4.8,
+      "userRatingCount": 740,
+      "displayName": {
+        "text": "Black Gold Amsterdam",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609d5e26b385f:0xbfc2f584c9547e7b!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=13817876557388349051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609d5e26b385f:0xbfc2f584c9547e7b!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609d5e26b385f:0xbfc2f584c9547e7b!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609d5e26b385f:0xbfc2f584c9547e7b!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Bilderdijkstraat 46H, 1052 NB Amsterdam, Netherlands",
+      "rating": 4.7,
+      "userRatingCount": 871,
+      "displayName": {
+        "text": "Monks Coffee Roasters.",
+        "languageCode": "en"
+      },
+      "primaryType": "cafe",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609dfd3ac099d:0x51c385d02c912adb!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=5891699866678143707&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609dfd3ac099d:0x51c385d02c912adb!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609dfd3ac099d:0x51c385d02c912adb!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609dfd3ac099d:0x51c385d02c912adb!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Oudegracht 222, 3511 NT Utrecht, Netherlands",
+      "rating": 4.8,
+      "userRatingCount": 454,
+      "displayName": {
+        "text": "Blackbird coffee & vintage",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c66f5a876dacb1:0xe0da309701830a!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=63290297009931018&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c66f5a876dacb1:0xe0da309701830a!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c66f5a876dacb1:0xe0da309701830a!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c66f5a876dacb1:0xe0da309701830a!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Hoofddorpplein 6H, 1058 PD Amsterdam, Netherlands",
+      "rating": 4.7,
+      "userRatingCount": 394,
+      "displayName": {
+        "text": "Buno Coffee Hoofddorpplein",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c5e3a2f3c7ca19:0x481d316f673a883f!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=5196363899598440511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e3a2f3c7ca19:0x481d316f673a883f!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c5e3a2f3c7ca19:0x481d316f673a883f!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e3a2f3c7ca19:0x481d316f673a883f!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Warmoesstraat 133, 1012 JB Amsterdam, Netherlands",
+      "rating": 4.6,
+      "userRatingCount": 1130,
+      "displayName": {
+        "text": "Coffee & Cakes",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c6090f6ad29c8b:0x881f693dde2ee52d!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=9808674227877766445&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c6090f6ad29c8b:0x881f693dde2ee52d!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c6090f6ad29c8b:0x881f693dde2ee52d!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c6090f6ad29c8b:0x881f693dde2ee52d!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Servetstraat 6, 3512 JG Utrecht, Netherlands",
+      "rating": 4.8,
+      "userRatingCount": 272,
+      "displayName": {
+        "text": "Vanneau Espresso Utrecht",
+        "languageCode": "nl"
+      },
+      "primaryType": "food_store",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c66f7fd1a98bb5:0xe2f96656d3299e21!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=16355216044868607521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c66f7fd1a98bb5:0xe2f96656d3299e21!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c66f7fd1a98bb5:0xe2f96656d3299e21!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c66f7fd1a98bb5:0xe2f96656d3299e21!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Spuistraat 217, 1012 RN Amsterdam, Netherlands",
+      "rating": 4.6,
+      "userRatingCount": 835,
+      "displayName": {
+        "text": "Hummingbird Coffee Amsterdam",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609f4cfeb91f9:0xeab5f0abbca82d28!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=16912688596054977832&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609f4cfeb91f9:0xeab5f0abbca82d28!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609f4cfeb91f9:0xeab5f0abbca82d28!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609f4cfeb91f9:0xeab5f0abbca82d28!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Bos en Lommerweg 136 HS, 1055 ED Amsterdam, Netherlands",
+      "rating": 4.8,
+      "userRatingCount": 923,
+      "displayName": {
+        "text": "Friedhats FUKU Cafe",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c5e38659bdd8c5:0x72b809fc6b386306!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=8266368095773811462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e38659bdd8c5:0x72b809fc6b386306!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c5e38659bdd8c5:0x72b809fc6b386306!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e38659bdd8c5:0x72b809fc6b386306!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    }
+  ]
+}

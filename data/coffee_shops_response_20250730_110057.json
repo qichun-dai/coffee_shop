@@ -1,0 +1,164 @@
+{
+  "places": [
+    {
+      "formattedAddress": "Van der Helstplein 10H, 1072 PH Amsterdam, Netherlands",
+      "rating": 4.9,
+      "displayName": {
+        "text": "Elevate Coffee Lab",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Amstel 47, 1011 PW Amsterdam, Netherlands",
+      "rating": 4.9,
+      "displayName": {
+        "text": "Alpha coffee Amsterdam",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Westerstraat 3, 1015 LT Amsterdam, Netherlands",
+      "rating": 4.8,
+      "displayName": {
+        "text": "Luuk's Coffee Noordermarkt",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Kostverlorenstraat 11H, 1052 GS Amsterdam, Netherlands",
+      "rating": 5,
+      "displayName": {
+        "text": "WesterPerk Coffee & Shop",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Bellamyplein 16H, 1053 AS Amsterdam, Netherlands",
+      "rating": 4.8,
+      "displayName": {
+        "text": "Dak Showroom by Dak Coffee Roasters",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Kerkstraat 96H, 1017 GP Amsterdam, Netherlands",
+      "rating": 4.4,
+      "displayName": {
+        "text": "Bocca Coffee",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Boerhaaveplein 3, 1091 DH Amsterdam, Netherlands",
+      "rating": 4.7,
+      "displayName": {
+        "text": "Five Ways Coffee Roasters",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Van Woustraat 113, 1074 AH Amsterdam, Netherlands",
+      "rating": 4.8,
+      "displayName": {
+        "text": "Coffee Bru",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Kinkerstraat 186, 1053 CG Amsterdam, Netherlands",
+      "rating": 4.6,
+      "displayName": {
+        "text": "Five Ways Coffee Roasters",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Bakkerstraat 5, 3511 JV Utrecht, Netherlands",
+      "rating": 4.8,
+      "displayName": {
+        "text": "Darras Coffee Roasters Utrecht",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Voorstraat 44-46, 3512 AP Utrecht, Netherlands",
+      "rating": 4.7,
+      "displayName": {
+        "text": "The Village Coffee & Music",
+        "languageCode": "nl"
+      }
+    },
+    {
+      "formattedAddress": "Kruislaan 259A, 1098 SH Amsterdam, Netherlands",
+      "rating": 5,
+      "displayName": {
+        "text": "noon coffee & culture",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Korte Koningsstraat 13 H, 1011 EX Amsterdam, Netherlands",
+      "rating": 4.8,
+      "displayName": {
+        "text": "Black Gold Amsterdam",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Bilderdijkstraat 46H, 1052 NB Amsterdam, Netherlands",
+      "rating": 4.7,
+      "displayName": {
+        "text": "Monks Coffee Roasters.",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Oudegracht 222, 3511 NT Utrecht, Netherlands",
+      "rating": 4.8,
+      "displayName": {
+        "text": "Blackbird coffee & vintage",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Hoofddorpplein 6H, 1058 PD Amsterdam, Netherlands",
+      "rating": 4.7,
+      "displayName": {
+        "text": "Buno Coffee Hoofddorpplein",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Warmoesstraat 133, 1012 JB Amsterdam, Netherlands",
+      "rating": 4.6,
+      "displayName": {
+        "text": "Coffee & Cakes",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Servetstraat 6, 3512 JG Utrecht, Netherlands",
+      "rating": 4.8,
+      "displayName": {
+        "text": "Vanneau Espresso Utrecht",
+        "languageCode": "nl"
+      }
+    },
+    {
+      "formattedAddress": "Spuistraat 217, 1012 RN Amsterdam, Netherlands",
+      "rating": 4.6,
+      "displayName": {
+        "text": "Hummingbird Coffee Amsterdam",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Bos en Lommerweg 136 HS, 1055 ED Amsterdam, Netherlands",
+      "rating": 4.8,
+      "displayName": {
+        "text": "Friedhats FUKU Cafe",
+        "languageCode": "en"
+      }
+    }
+  ]
+}
