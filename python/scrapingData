@@ -2,6 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.firefox.service import Service as FirefoxService
 import time
 import os
 import pandas as pd
@@ -33,103 +35,118 @@ coffees["1"] = pd.Series(dtype='int')
 print(coffees.columns)
 
 def reject_cookies():
-    # Use Chrome options to keep browser open
-    chrome_options = webdriver.ChromeOptions()
+    # Use Firefox options for better stability
+    firefox_options = FirefoxOptions()
+    
+    # Set Firefox preferences to avoid remote errors
+    firefox_options.set_preference("remote.enabled", False)
+    firefox_options.set_preference("remote.force-local", True)
+    firefox_options.set_preference("marionette.enabled", True)
+    firefox_options.set_preference("marionette.port", 2828)
+    
+    # Disable problematic remote features
+    firefox_options.set_preference("remote.active-protocols", 0)
+    firefox_options.set_preference("fission.autostart", False)
+    firefox_options.set_preference("browser.tabs.remote.autostart", False)
     
     # Essential options for stability
-    chrome_options.add_argument("--no-sandbox")  # Bypass OS security model
-    chrome_options.add_argument("--disable-dev-shm-usage")  # Overcome limited resource problems
-    chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration
-    chrome_options.add_argument("--remote-debugging-port=9222")  # Enable remote debugging
-    chrome_options.add_argument("--disable-web-security")
-    chrome_options.add_argument("--disable-features=VizDisplayCompositor")
+    firefox_options.add_argument("--no-sandbox")
+    firefox_options.add_argument("--disable-dev-shm-usage")
+    firefox_options.add_argument("--width=1920")
+    firefox_options.add_argument("--height=1080")
     
-    # Window management
-    chrome_options.add_argument("--start-maximized")
-    chrome_options.add_experimental_option("detach", True)  # Keep browser open after script ends
+    # Disable extensions and plugins for stability
+    firefox_options.set_preference("extensions.enabled", False)
+    firefox_options.set_preference("plugin.state.flash", 0)
+    firefox_options.set_preference("plugin.state.java", 0)
     
-    # Logging suppression
-    chrome_options.add_argument("--log-level=3")  # Suppress INFO, WARNING, ERROR logs
-    chrome_options.add_argument("--disable-logging")
-    chrome_options.add_argument("--silent")
+    # Set preferences for better scraping
+    firefox_options.set_preference("dom.webdriver.enabled", False)
+    firefox_options.set_preference("useAutomationExtension", False)
+    firefox_options.set_preference("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0")
     
     # Performance optimizations
-    chrome_options.add_argument("--disable-background-timer-throttling")
-    chrome_options.add_argument("--disable-backgrounding-occluded-windows")
-    chrome_options.add_argument("--disable-renderer-backgrounding")
-    chrome_options.add_argument("--disable-background-networking")
-    chrome_options.add_argument("--disable-sync")  # Disable Google account sync
-    chrome_options.add_argument("--disable-default-apps")
-    chrome_options.add_argument("--disable-extensions")
+    firefox_options.set_preference("network.http.connection-timeout", 60)
+    firefox_options.set_preference("network.http.response.timeout", 60)
+    firefox_options.set_preference("dom.max_script_run_time", 60)
     
-    # Disable problematic features
-    chrome_options.add_argument("--disable-features=TranslateUI")
-    chrome_options.add_argument("--disable-machine-learning")
-    chrome_options.add_argument("--disable-ml-model-service")
-    chrome_options.add_argument("--disable-speech-api")
-    chrome_options.add_argument("--disable-speech-synthesis-api")
-    chrome_options.add_argument("--disable-voice-input")
-    chrome_options.add_argument("--disable-features=VoiceInteraction")
-    chrome_options.add_argument("--disable-features=VoiceSearchAudioCapturePolicy")
-    chrome_options.add_argument("--disable-component-update")
+    # Disable images and CSS for faster loading
+    firefox_options.set_preference("permissions.default.image", 2)  # Block images
+    firefox_options.set_preference("permissions.default.stylesheet", 2)  # Block CSS
     
-    # Crash prevention
-    chrome_options.add_argument("--disable-crash-reporter")
-    chrome_options.add_argument("--disable-oopr-debug-crash-dump")
-    chrome_options.add_argument("--no-crash-upload")
-    chrome_options.add_argument("--disable-gpu-process-crash-limit")
-    chrome_options.add_argument("--disable-ipc-flooding-protection")
-    chrome_options.add_argument("--disable-gpu-sandbox")
-    chrome_options.add_argument("--disable-software-rasterizer")
-    chrome_options.add_argument("--disable-background-mode")
-    chrome_options.add_argument("--disable-client-side-phishing-detection")
-
-    # Set environment variables to suppress absl logging
-    os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # Suppress TensorFlow logs
-    os.environ['GLOG_minloglevel'] = '3'      # Suppress Google logging
-    os.environ['PYTHONHTTPSVERIFY'] = '0'     # Suppress SSL warnings if any
+    # Logging suppression
+    firefox_options.set_preference("devtools.console.stdout.chrome", False)
+    firefox_options.set_preference("browser.dom.window.dump.enabled", False)
+    
+    # Set environment variables to suppress logging
+    os.environ['MOZ_LOG'] = ''
+    os.environ['MOZ_LOG_FILE'] = ''
+    os.environ['GECKO_DRIVER_LOG'] = 'fatal'
     
     try:
-        print("Starting Chrome browser...")
-        driver = webdriver.Chrome(options=chrome_options)
-        print("Chrome started successfully!")
+        print("Starting Firefox browser with stable configuration...")
         
+        # Try to create Firefox service with custom settings
+        from selenium.webdriver.firefox.service import Service as FirefoxService
+        
+        # Create service with log suppression
+        service = FirefoxService(log_path=os.devnull)  # Suppress geckodriver logs
+        
+        driver = webdriver.Firefox(service=service, options=firefox_options)
+        print("Firefox started successfully!")
+        
+        # Set timeouts
+        driver.implicitly_wait(10)
+        driver.set_page_load_timeout(60)
+        
+        # Navigate to Google Maps
+        print("Navigating to Google Maps...")
         driver.get("https://maps.google.com")
-        print("Navigated to Google Maps")
+        print("Successfully loaded Google Maps")
 
         # Wait for the page to load
-        time.sleep(3)
+        time.sleep(5)
 
-        # First handle cookie consent if it appears
+        # Handle cookie consent
         try:
-            reject_button = driver.find_element(By.XPATH, "//button[contains(normalize-space(), 'Alles afwijzen')]")
+            print("Looking for cookie consent button...")
+            wait = WebDriverWait(driver, 15)
+            reject_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(normalize-space(), 'Alles afwijzen')]")))
             print("Found cookie consent button!")
             reject_button.click()
             print("Clicked reject cookies button")
+            time.sleep(3)
         except Exception as e:
             print(f"Cookie button not found (this is normal): {e}")
             
         return driver
         
     except Exception as e:
-        print(f"Failed to start Chrome: {e}")
-        print("Trying alternative Chrome configuration...")
+        print(f"Failed to start Firefox with service: {e}")
+        print("Trying basic Firefox configuration...")
         
-        # Fallback configuration - minimal options
-        chrome_options_fallback = webdriver.ChromeOptions()
-        chrome_options_fallback.add_argument("--no-sandbox")
-        chrome_options_fallback.add_argument("--disable-dev-shm-usage")
-        chrome_options_fallback.add_argument("--remote-debugging-port=9223")  # Different port
-        chrome_options_fallback.add_experimental_option("detach", True)
-        
+        # Fallback - basic Firefox without service
         try:
-            driver = webdriver.Chrome(options=chrome_options_fallback)
+            firefox_basic = FirefoxOptions()
+            firefox_basic.add_argument("--width=1920")
+            firefox_basic.add_argument("--height=1080")
+            firefox_basic.set_preference("dom.webdriver.enabled", False)
+            firefox_basic.set_preference("remote.enabled", False)
+            
+            driver = webdriver.Firefox(options=firefox_basic)
             driver.get("https://maps.google.com")
-            time.sleep(3)
+            time.sleep(5)
+            print("Basic Firefox configuration successful!")
             return driver
-        except Exception as fallback_error:
-            print(f"Fallback also failed: {fallback_error}")
-            raise Exception("Unable to start Chrome browser with any configuration")
+            
+        except Exception as basic_error:
+            print(f"Basic Firefox also failed: {basic_error}")
+            print("\nTroubleshooting steps:")
+            print("1. Make sure Firefox is installed")
+            print("2. Download geckodriver from: https://github.com/mozilla/geckodriver/releases")
+            print("3. Add geckodriver to your PATH or place in script directory")
+            print("4. Try running: 'geckodriver --version' to test installation")
+            raise Exception("Unable to start Firefox browser with any configuration")
 
 driver = reject_cookies()
 
