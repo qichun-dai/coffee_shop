@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import os
 
-coffee_file = os.path.join("..", "data", "coffee_shops_response_20250730_111051.json")
+coffee_file = os.path.join("..", "data", "coffee_shops_response_20250801_105110.json")
 
 with open(coffee_file, mode="r", encoding='utf-8') as file:
     coffee_raw = json.load(file)
@@ -57,12 +57,4 @@ print(coffee_final.head())
 output_file = os.path.join("..", "data", "coffee_shops_processed.csv")
 coffee_final.to_csv(output_file, index=False, encoding='utf-8-sig', escapechar=None, quoting=1)
 print(f"\n✅ DataFrame saved to: {os.path.abspath(output_file)}")
-    
-    
-    
-    
-    
-    
-    
-    
-
+  

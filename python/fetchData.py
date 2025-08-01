@@ -39,7 +39,7 @@ print(f"Status code: {results.status_code}")
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
 # Create data directory if it doesn't exist
-data_dir = os.path.join("..", "data")
+data_dir = os.path.join(".", "data")
 os.makedirs(data_dir, exist_ok=True)
 
 # Print the absolute path for debugging

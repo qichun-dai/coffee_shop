@@ -1,0 +1,203 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import time
+import os
+import pandas as pd
+from datetime import datetime
+
+
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+# csv file location
+CSV_LOCATION = os.path.join(".","data","coffee_shops_processed.csv")
+CSV_LOCATION_NEW = os.path.join(".","data",f"coffee_shops_processed_{timestamp}.csv")
+
+# Target all aria-label elements in the specific table
+# rating and reviews xpath
+table_xpath = "/html/body/div[1]/div[3]/div[8]/div[9]/div/div/div[1]/div[2]/div/div[1]/div/div/div[38]/div/div[1]/table/tbody"
+
+
+# Read the coffee places from a csv file
+
+with open(CSV_LOCATION,encoding="utf-8",mode="r") as file:
+    coffees = pd.read_csv(file)
+    
+
+coffees["5"] = pd.Series(dtype='int')
+coffees["4"] = pd.Series(dtype='int')
+coffees["3"] = pd.Series(dtype='int')
+coffees["2"] = pd.Series(dtype='int')
+coffees["1"] = pd.Series(dtype='int')
+
+print(coffees.columns)
+
+def reject_cookies():
+    # Use Chrome options to keep browser open
+    chrome_options = webdriver.ChromeOptions()
+    
+    # Essential options for stability
+    chrome_options.add_argument("--no-sandbox")  # Bypass OS security model
+    chrome_options.add_argument("--disable-dev-shm-usage")  # Overcome limited resource problems
+    chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration
+    chrome_options.add_argument("--remote-debugging-port=9222")  # Enable remote debugging
+    chrome_options.add_argument("--disable-web-security")
+    chrome_options.add_argument("--disable-features=VizDisplayCompositor")
+    
+    # Window management
+    chrome_options.add_argument("--start-maximized")
+    chrome_options.add_experimental_option("detach", True)  # Keep browser open after script ends
+    
+    # Logging suppression
+    chrome_options.add_argument("--log-level=3")  # Suppress INFO, WARNING, ERROR logs
+    chrome_options.add_argument("--disable-logging")
+    chrome_options.add_argument("--silent")
+    
+    # Performance optimizations
+    chrome_options.add_argument("--disable-background-timer-throttling")
+    chrome_options.add_argument("--disable-backgrounding-occluded-windows")
+    chrome_options.add_argument("--disable-renderer-backgrounding")
+    chrome_options.add_argument("--disable-background-networking")
+    chrome_options.add_argument("--disable-sync")  # Disable Google account sync
+    chrome_options.add_argument("--disable-default-apps")
+    chrome_options.add_argument("--disable-extensions")
+    
+    # Disable problematic features
+    chrome_options.add_argument("--disable-features=TranslateUI")
+    chrome_options.add_argument("--disable-machine-learning")
+    chrome_options.add_argument("--disable-ml-model-service")
+    chrome_options.add_argument("--disable-speech-api")
+    chrome_options.add_argument("--disable-speech-synthesis-api")
+    chrome_options.add_argument("--disable-voice-input")
+    chrome_options.add_argument("--disable-features=VoiceInteraction")
+    chrome_options.add_argument("--disable-features=VoiceSearchAudioCapturePolicy")
+    chrome_options.add_argument("--disable-component-update")
+    
+    # Crash prevention
+    chrome_options.add_argument("--disable-crash-reporter")
+    chrome_options.add_argument("--disable-oopr-debug-crash-dump")
+    chrome_options.add_argument("--no-crash-upload")
+    chrome_options.add_argument("--disable-gpu-process-crash-limit")
+    chrome_options.add_argument("--disable-ipc-flooding-protection")
+    chrome_options.add_argument("--disable-gpu-sandbox")
+    chrome_options.add_argument("--disable-software-rasterizer")
+    chrome_options.add_argument("--disable-background-mode")
+    chrome_options.add_argument("--disable-client-side-phishing-detection")
+
+    # Set environment variables to suppress absl logging
+    os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # Suppress TensorFlow logs
+    os.environ['GLOG_minloglevel'] = '3'      # Suppress Google logging
+    os.environ['PYTHONHTTPSVERIFY'] = '0'     # Suppress SSL warnings if any
+    
+    try:
+        print("Starting Chrome browser...")
+        driver = webdriver.Chrome(options=chrome_options)
+        print("Chrome started successfully!")
+        
+        driver.get("https://maps.google.com")
+        print("Navigated to Google Maps")
+
+        # Wait for the page to load
+        time.sleep(3)
+
+        # First handle cookie consent if it appears
+        try:
+            reject_button = driver.find_element(By.XPATH, "//button[contains(normalize-space(), 'Alles afwijzen')]")
+            print("Found cookie consent button!")
+            reject_button.click()
+            print("Clicked reject cookies button")
+        except Exception as e:
+            print(f"Cookie button not found (this is normal): {e}")
+            
+        return driver
+        
+    except Exception as e:
+        print(f"Failed to start Chrome: {e}")
+        print("Trying alternative Chrome configuration...")
+        
+        # Fallback configuration - minimal options
+        chrome_options_fallback = webdriver.ChromeOptions()
+        chrome_options_fallback.add_argument("--no-sandbox")
+        chrome_options_fallback.add_argument("--disable-dev-shm-usage")
+        chrome_options_fallback.add_argument("--remote-debugging-port=9223")  # Different port
+        chrome_options_fallback.add_experimental_option("detach", True)
+        
+        try:
+            driver = webdriver.Chrome(options=chrome_options_fallback)
+            driver.get("https://maps.google.com")
+            time.sleep(3)
+            return driver
+        except Exception as fallback_error:
+            print(f"Fallback also failed: {fallback_error}")
+            raise Exception("Unable to start Chrome browser with any configuration")
+
+driver = reject_cookies()
+
+
+def finding_stars(row_index, link, driver, coffees_df):
+    # Wait a bit more for the page to fully load after cookie consent
+
+    driver.get(link)
+    time.sleep(3)
+    
+
+    print(f"Processing row {row_index}: Searching for aria-label elements in the table...")
+
+    try:
+        
+        # scroll this element
+        scrollable = "/html/body/div[1]/div[3]/div[8]/div[9]/div/div/div[1]/div[2]/div/div[1]"
+        
+        # Wait for the scrollable element to be present
+        wait = WebDriverWait(driver, 10)
+        scrollable_element = wait.until(EC.presence_of_element_located((By.XPATH, scrollable)))
+        
+        print("Scrolling down to load all rating elements...")
+        
+        # # Method 1: Scroll down multiple times to ensure all content is loaded
+        # for scroll_attempt in range(5):  # Scroll 5 times
+        #     driver.execute_script("arguments[0].scrollTop += 300;", scrollable_element)
+        #     time.sleep(1)  # Wait between scrolls
+        #     print(f"Scroll attempt {scroll_attempt + 1}")
+        
+        # Method 2: Scroll to the bottom of the element
+        driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight;", scrollable_element)
+        time.sleep(2)  # Wait for content to load after scrolling to bottom
+        
+        print("Finished scrolling, waiting for content to load...")
+        
+        # Wait for the table to be present first, then find aria-label elements
+        wait = WebDriverWait(driver, 10)
+        
+        # Wait for at least one element with aria-label to be present in the table
+        wait.until(EC.presence_of_element_located((By.XPATH, f"{table_xpath}//*[@aria-label]")))
+        
+        # Now find all elements with aria-label within the specific table
+        aria_elements = driver.find_elements(By.XPATH, f"{table_xpath}//*[@aria-label]")
+        print(f"Found {len(aria_elements)} elements with aria-label in the table")
+        
+        for i, element in enumerate(aria_elements):
+            aria_label = element.get_attribute("aria-label")
+            splited = aria_label.split(",")
+
+            star = splited[0].split()[0]
+            number = splited[1].split()[0]
+
+            # Update the original DataFrame using .loc with row index
+            coffees_df.loc[row_index, f"{star}"] = int(number)
+            print(f"Updated row {row_index}, star {star}: {number}")
+
+        # Print the updated row to verify changes
+        print(coffees_df.loc[row_index, ['5', '4', '3', '2', '1']])
+            
+    except Exception as e:
+        print(f"Error finding aria-label elements: {e}")
+        
+
+for i, row in coffees.iterrows():  
+    finding_stars(i, row['placeUri'], driver=driver, coffees_df=coffees)    
+    
+
+coffees.to_csv(CSV_LOCATION_NEW, index=False, encoding='utf-8')
+
+driver.close()
