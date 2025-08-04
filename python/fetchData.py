@@ -27,9 +27,15 @@ headers = {
 
 # Request body for the new Places API
 data = {
-    "textQuery": "coffee",
-    "openNow": True,
+    "textQuery": "coffee in Amsterdam",
+    # "openNow": True,
 }
+
+# TO-DO: Adding function to allow next page search and get next 4 pages
+
+# TO-DO: Adding search to a specific neighborhood
+
+# TO-DO: Filter out coffee places that opens after 11 pm
 
 results = requests.post(URL, headers=headers, json=data)
 

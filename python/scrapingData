@@ -6,31 +6,24 @@ import time
 import os
 import pandas as pd
 from datetime import datetime
+import math
 
 
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 # csv file location
-CSV_LOCATION = os.path.join(".","data","coffee_shops_processed.csv")
-CSV_LOCATION_NEW = os.path.join(".","data",f"coffee_shops_processed_{timestamp}.csv")
+CSV_LOCATION = os.path.join(".","data","coffee_shops_processed_20250804_161250.csv")
+# CSV_LOCATION = os.path.join(".","data","coffee_shops_stars_20250804_153340.csv")
+CSV_LOCATION_NEW = os.path.join(".","data",f"coffee_shops_stars_{timestamp}.csv")
 
 # Target all aria-label elements in the specific table
-# rating and reviews xpath
-table_xpath = "/html/body/div[1]/div[3]/div[8]/div[9]/div/div/div[1]/div[2]/div/div[1]/div/div/div[38]/div/div[1]/table/tbody"
+# rating and reviews xpath, the xpath doesn't work all the time, so I switched to CSS selector
+# table_xpath = "/html/body/div[1]/div[3]/div[8]/div[9]/div/div/div[1]/div[2]/div/div[1]/div/div/div[38]/div/div[1]/table/tbody"
 
 
 # Read the coffee places from a csv file
-
 with open(CSV_LOCATION,encoding="utf-8",mode="r") as file:
     coffees = pd.read_csv(file)
     
-
-coffees["5"] = pd.Series(dtype='int')
-coffees["4"] = pd.Series(dtype='int')
-coffees["3"] = pd.Series(dtype='int')
-coffees["2"] = pd.Series(dtype='int')
-coffees["1"] = pd.Series(dtype='int')
-
-print(coffees.columns)
 
 def reject_cookies():
     # Use Chrome options to keep browser open
@@ -131,17 +124,18 @@ def reject_cookies():
             print(f"Fallback also failed: {fallback_error}")
             raise Exception("Unable to start Chrome browser with any configuration")
 
-driver = reject_cookies()
 
 
-def finding_stars(row_index, link, driver, coffees_df):
+def finding_stars(row_index, link, driver):
     # Wait a bit more for the page to fully load after cookie consent
 
     driver.get(link)
     time.sleep(3)
     
-
     print(f"Processing row {row_index}: Searching for aria-label elements in the table...")
+
+    # Initialize return dictionary with default values
+    star_data = {"5": 0, "4": 0, "3": 0, "2": 0, "1": 0}
 
     try:
         
@@ -200,22 +194,98 @@ def finding_stars(row_index, link, driver, coffees_df):
             number = splited[1].split()[0]
             number = number.replace(".", "").replace(",", "")  # Remove dots and commas from numbers
             
+            # Store data in dictionary instead of updating DataFrame immediately
+            star_data[star] = int(number)
+            print(f"Extracted - Star: {star}, Number: {number}")
 
-            # Update the original DataFrame using .loc with row index
-            coffees_df.loc[row_index, f"{star}"] = int(number)
-            print(f"Updated row {row_index}, star {star}: {number}")
-
-        # Print the updated row to verify changes
-        print(coffees_df.loc[row_index, ['5', '4', '3', '2', '1']])
+        print(f"Row {row_index} star data: {star_data}")
+        return star_data
             
     except Exception as e:
-        print(f"Error finding aria-label elements: {e}")
+        print(f"Error finding aria-label elements for row {row_index}: {e}")
+        return star_data  # Return default values (all zeros) if error occurs
+
+
+def collect_all_star_data(coffees_df, driver):
+    """
+    Collect star rating data for all coffee shops and update DataFrame efficiently
+    """
+    print("Starting bulk star data collection...")
+    
+    # Initialize lists to store data for each star rating
+    stars_5_list = []
+    stars_4_list = []
+    stars_3_list = []
+    stars_2_list = []
+    stars_1_list = []
+    
+    # Process each row and collect data
+    for i, row in coffees_df.iterrows():
+        print(f"\n--- Processing {i+1}/{len(coffees_df)} ---")
+        
+        try:
+            star_data = finding_stars(i, row['placeUri'], driver)
+            
+            # Append data to respective lists
+            stars_5_list.append(star_data["5"])
+            stars_4_list.append(star_data["4"])
+            stars_3_list.append(star_data["3"])
+            stars_2_list.append(star_data["2"])
+            stars_1_list.append(star_data["1"])
+            
+            # Optional: Save progress every 10 rows
+            if (i + 1) % 10 == 0:
+                print(f"Processed {i+1} rows so far...")
+                
+        except Exception as e:
+            print(f"Error processing row {i}: {e}")
+            # Add zeros for failed rows
+            stars_5_list.append(0)
+            stars_4_list.append(0)
+            stars_3_list.append(0)
+            stars_2_list.append(0)
+            stars_1_list.append(0)
+    
+    # Update DataFrame columns in bulk (much more efficient!)
+    print("\nUpdating DataFrame with collected data...")
+    coffees_df["5"] = stars_5_list
+    coffees_df["4"] = stars_4_list
+    coffees_df["3"] = stars_3_list
+    coffees_df["2"] = stars_2_list
+    coffees_df["1"] = stars_1_list
+    
+    print("Bulk update completed!")
+    return coffees_df
         
 
-for i, row in coffees.iterrows():  
-    finding_stars(i, row['placeUri'], driver=driver, coffees_df=coffees)    
+def sort_beyasian(coffees):
+    beyasian_rating = []
+    for i, coffee in coffees.iterrows():
+
+    #  https://www.evanmiller.org/ranking-items-with-star-ratings.html
+        N = coffee["userRatingCount"]
+        K = 5
+        z = 1.65
+        nk = [coffee["5"],coffee["4"],coffee["3"],coffee["2"],coffee["1"]]
+   
+        sk = range(K,0,-1)
+        sk2 = [each**2 for each in sk]
+        def f(sk,nk):
+            return sum(sk*(nk+1) for sk, nk in zip(sk,nk))/(N+K)
+        fsum = f(sk,nk)
+        beyasian_rating.append(fsum -z * math.sqrt((f(sk2,nk)-fsum**2)/(N+K+1)))
+    return beyasian_rating
+        
+        
+    
     
 
-coffees.to_csv(CSV_LOCATION_NEW, index=False, encoding='utf-8')
-
+driver = reject_cookies()
+coffees = collect_all_star_data(coffees, driver)
 driver.close()
+
+# running the Bayesian calculation on existing data
+adjustedRating = sort_beyasian(coffees)
+coffees["adjustedRating"] = adjustedRating
+
+coffees.to_csv(CSV_LOCATION_NEW, index=False, encoding='utf-8')
