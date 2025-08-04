@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import os
 
-coffee_file = os.path.join("..", "data", "coffee_shops_response_20250801_105110.json")
+coffee_file = os.path.join(".", "data", "coffee_shops_response_20250801_182000.json")
 
 with open(coffee_file, mode="r", encoding='utf-8') as file:
     coffee_raw = json.load(file)
@@ -18,6 +18,7 @@ for coffee in coffee_raw["places"]:
     userRatingCount = coffee["userRatingCount"]
     primaryType = coffee["primaryType"]
     placeUri = coffee["googleMapsLinks"]["placeUri"]
+    address = coffee["formattedAddress"]
     latitude = coffee["location"]["latitude"]
     longitude = coffee["location"]["longitude"]
     
@@ -38,6 +39,7 @@ for coffee in coffee_raw["places"]:
         "userRatingCount": userRatingCount,
         "primaryType": primaryType,
         "placeUri": placeUri,
+        "address": address,
         "latitude": latitude,
         "longitude": longitude,
         "weekdayDescriptions": weekday_clean
@@ -54,7 +56,7 @@ print("\nDataFrame head:")
 print(coffee_final.head())
 
 # Save to CSV with proper Unicode handling
-output_file = os.path.join("..", "data", "coffee_shops_processed.csv")
+output_file = os.path.join(".", "data", "coffee_shops_processed.csv")
 coffee_final.to_csv(output_file, index=False, encoding='utf-8-sig', escapechar=None, quoting=1)
 print(f"\n✅ DataFrame saved to: {os.path.abspath(output_file)}")
   

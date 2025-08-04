@@ -1,0 +1,2356 @@
+{
+  "places": [
+    {
+      "formattedAddress": "Valschermkade 19, 1059 CD Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.342071999999995,
+        "longitude": 4.845875700000001
+      },
+      "rating": 4.5,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 17,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 17,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 8:00 AM – 8:00 PM",
+          "Tuesday: 8:00 AM – 8:00 PM",
+          "Wednesday: 8:00 AM – 8:00 PM",
+          "Thursday: 8:00 AM – 8:00 PM",
+          "Friday: 8:00 AM – 8:00 PM",
+          "Saturday: 9:00 AM – 5:00 PM",
+          "Sunday: 9:00 AM – 5:00 PM"
+        ],
+        "nextCloseTime": "2025-08-01T18:00:00Z"
+      },
+      "userRatingCount": 143,
+      "displayName": {
+        "text": "Café Jansen Schinkel",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c5e1f6b474cce3:0x806c942f3d6d5498!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=9253934264954475672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e1f6b474cce3:0x806c942f3d6d5498!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c5e1f6b474cce3:0x806c942f3d6d5498!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e1f6b474cce3:0x806c942f3d6d5498!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Gaasterlandstraat 401, 1079 RH Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.33764250000001,
+        "longitude": 4.8934371
+      },
+      "rating": 4.5,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 20,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 8:00 AM – 8:00 PM",
+          "Tuesday: 8:00 AM – 8:00 PM",
+          "Wednesday: 8:00 AM – 8:00 PM",
+          "Thursday: 8:00 AM – 8:00 PM",
+          "Friday: 8:00 AM – 8:00 PM",
+          "Saturday: 9:00 AM – 8:00 PM",
+          "Sunday: 9:00 AM – 8:00 PM"
+        ],
+        "nextCloseTime": "2025-08-01T18:00:00Z"
+      },
+      "userRatingCount": 235,
+      "displayName": {
+        "text": "The Block Coffee",
+        "languageCode": "nl"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c60b6d538cfd57:0x7f65013a60fb8fd0!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=9179744765711454160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c60b6d538cfd57:0x7f65013a60fb8fd0!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c60b6d538cfd57:0x7f65013a60fb8fd0!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c60b6d538cfd57:0x7f65013a60fb8fd0!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Overtoom 429, 1054 KE Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.358930799999996,
+        "longitude": 4.8606317
+      },
+      "rating": 4.5,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 8,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 7,
+              "minute": 30
+            },
+            "close": {
+              "day": 1,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 7,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 7,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 7,
+              "minute": 30
+            },
+            "close": {
+              "day": 4,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 7,
+              "minute": 30
+            },
+            "close": {
+              "day": 5,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 8,
+              "minute": 30
+            },
+            "close": {
+              "day": 6,
+              "hour": 21,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 7:30 AM – 8:00 PM",
+          "Tuesday: 7:30 AM – 8:00 PM",
+          "Wednesday: 7:30 AM – 8:00 PM",
+          "Thursday: 7:30 AM – 8:00 PM",
+          "Friday: 7:30 AM – 9:00 PM",
+          "Saturday: 8:30 AM – 9:00 PM",
+          "Sunday: 8:30 AM – 9:00 PM"
+        ],
+        "nextCloseTime": "2025-08-01T19:00:00Z"
+      },
+      "userRatingCount": 171,
+      "displayName": {
+        "text": "Cafecito Overtoom | Specialty Coffee & Matcha",
+        "languageCode": "nl"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c5e33fb55a15af:0x3ad2a0090ba8def9!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=4238626160019824377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e33fb55a15af:0x3ad2a0090ba8def9!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c5e33fb55a15af:0x3ad2a0090ba8def9!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e33fb55a15af:0x3ad2a0090ba8def9!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Singel 8, 1013 GA Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.379163999999996,
+        "longitude": 4.893925299999999
+      },
+      "rating": 4.6,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 1,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 10:00 AM – 1:00 AM",
+          "Tuesday: 10:00 AM – 1:00 AM",
+          "Wednesday: 10:00 AM – 1:00 AM",
+          "Thursday: 10:00 AM – 1:00 AM",
+          "Friday: 10:00 AM – 1:00 AM",
+          "Saturday: 10:00 AM – 1:00 AM",
+          "Sunday: 10:00 AM – 1:00 AM"
+        ],
+        "nextCloseTime": "2025-08-01T23:00:00Z"
+      },
+      "userRatingCount": 1066,
+      "displayName": {
+        "text": "Coffeeshopamsterdam Café",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609c85bb13e93:0x728a8e3fcac5d20!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=515847854484118816&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609c85bb13e93:0x728a8e3fcac5d20!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609c85bb13e93:0x728a8e3fcac5d20!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609c85bb13e93:0x728a8e3fcac5d20!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Van Baerlestraat 83, 1071 AS Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.3542065,
+        "longitude": 4.8816198
+      },
+      "rating": 4.4,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 7:00 AM – 9:00 PM",
+          "Tuesday: 7:00 AM – 9:00 PM",
+          "Wednesday: 7:00 AM – 9:00 PM",
+          "Thursday: 7:00 AM – 9:00 PM",
+          "Friday: 7:00 AM – 10:00 PM",
+          "Saturday: 8:00 AM – 10:00 PM",
+          "Sunday: 8:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2025-08-01T20:00:00Z"
+      },
+      "userRatingCount": 483,
+      "displayName": {
+        "text": "Cafecito",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c6098865bd4ad3:0xef160783ff4066c3!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=17227965688056932035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c6098865bd4ad3:0xef160783ff4066c3!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c6098865bd4ad3:0xef160783ff4066c3!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c6098865bd4ad3:0xef160783ff4066c3!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Nieuwezijds Kolk 12, 1012 PV Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.3763492,
+        "longitude": 4.8947921
+      },
+      "rating": 4.6,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 9:00 AM – 10:00 PM",
+          "Tuesday: 9:00 AM – 10:00 PM",
+          "Wednesday: 9:00 AM – 10:00 PM",
+          "Thursday: 9:00 AM – 10:00 PM",
+          "Friday: 9:00 AM – 10:00 PM",
+          "Saturday: 9:00 AM – 10:00 PM",
+          "Sunday: 9:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2025-08-01T20:00:00Z"
+      },
+      "userRatingCount": 210,
+      "displayName": {
+        "text": "Artista - Coffee & Brunch",
+        "languageCode": "en"
+      },
+      "primaryType": "restaurant",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c6098a9bddf0bf:0xf38ec58e0a73d8e4!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=17550182011760793828&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c6098a9bddf0bf:0xf38ec58e0a73d8e4!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c6098a9bddf0bf:0xf38ec58e0a73d8e4!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c6098a9bddf0bf:0xf38ec58e0a73d8e4!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Warmoesstraat 133, 1012 JB Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.3738628,
+        "longitude": 4.896120799999999
+      },
+      "rating": 4.6,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 8:00 AM – 10:00 PM",
+          "Tuesday: 8:00 AM – 10:00 PM",
+          "Wednesday: 8:00 AM – 10:00 PM",
+          "Thursday: 8:00 AM – 10:00 PM",
+          "Friday: 8:00 AM – 10:00 PM",
+          "Saturday: 8:00 AM – 10:00 PM",
+          "Sunday: 8:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2025-08-01T20:00:00Z"
+      },
+      "userRatingCount": 1132,
+      "displayName": {
+        "text": "Coffee & Cakes",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c6090f6ad29c8b:0x881f693dde2ee52d!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=9808674227877766445&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c6090f6ad29c8b:0x881f693dde2ee52d!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c6090f6ad29c8b:0x881f693dde2ee52d!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c6090f6ad29c8b:0x881f693dde2ee52d!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Bloemgracht 49, 1016 KD Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.374677,
+        "longitude": 4.8813721999999995
+      },
+      "rating": 4.9,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 19,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 19,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 19,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 19,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 19,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 19,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 19,
+              "minute": 30
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 8:00 AM – 7:00 PM",
+          "Tuesday: 8:00 AM – 7:00 PM",
+          "Wednesday: 8:00 AM – 7:00 PM",
+          "Thursday: 8:00 AM – 7:00 PM",
+          "Friday: 8:00 AM – 7:00 PM",
+          "Saturday: 9:00 AM – 7:30 PM",
+          "Sunday: 9:00 AM – 7:30 PM"
+        ],
+        "nextCloseTime": "2025-08-01T17:00:00Z"
+      },
+      "userRatingCount": 3016,
+      "displayName": {
+        "text": "Kafenion Amsterdam",
+        "languageCode": "en"
+      },
+      "primaryType": "cafe",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609a9ffcdc395:0xbf82fa02f23600d9!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=13799867098777125081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609a9ffcdc395:0xbf82fa02f23600d9!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609a9ffcdc395:0xbf82fa02f23600d9!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609a9ffcdc395:0xbf82fa02f23600d9!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Singel 379A, 1012 WL Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.3689865,
+        "longitude": 4.8883166
+      },
+      "rating": 4.8,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 18,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 21,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 8:00 AM – 9:00 PM",
+          "Tuesday: 8:00 AM – 6:00 PM",
+          "Wednesday: 8:00 AM – 9:00 PM",
+          "Thursday: 8:00 AM – 9:00 PM",
+          "Friday: 8:00 AM – 9:00 PM",
+          "Saturday: 9:00 AM – 9:00 PM",
+          "Sunday: 9:00 AM – 9:00 PM"
+        ],
+        "nextCloseTime": "2025-08-01T19:00:00Z"
+      },
+      "userRatingCount": 414,
+      "displayName": {
+        "text": "Café Magari • Coffee • Matcha • Cake • Wi-Fi",
+        "languageCode": "ko"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609612df6a19b:0xe040af2ed5fe72b5!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=16159108078698918581&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609612df6a19b:0xe040af2ed5fe72b5!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609612df6a19b:0xe040af2ed5fe72b5!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609612df6a19b:0xe040af2ed5fe72b5!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Korte Leidsedwarsstraat 145-147, 1017 PZ Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.362981999999995,
+        "longitude": 4.8853089999999995
+      },
+      "rating": 4.6,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 8,
+              "minute": 30
+            },
+            "close": {
+              "day": 1,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 8,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 8,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 30
+            },
+            "close": {
+              "day": 4,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 30
+            },
+            "close": {
+              "day": 5,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 30
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 8,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 1,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 8:30 AM – 1:00 AM",
+          "Tuesday: 8:30 AM – 1:00 AM",
+          "Wednesday: 8:30 AM – 1:00 AM",
+          "Thursday: 8:30 AM – 1:00 AM",
+          "Friday: 8:30 AM – 1:00 AM",
+          "Saturday: 8:30 AM – 1:00 AM",
+          "Sunday: 8:30 AM – 1:00 AM"
+        ],
+        "nextCloseTime": "2025-08-01T23:00:00Z"
+      },
+      "userRatingCount": 2875,
+      "displayName": {
+        "text": "The Rookies Coffeeshop",
+        "languageCode": "nl"
+      },
+      "primaryType": "store",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609e93e0c1499:0xeb59f30ba4061a1b!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=16958853103162366491&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609e93e0c1499:0xeb59f30ba4061a1b!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609e93e0c1499:0xeb59f30ba4061a1b!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609e93e0c1499:0xeb59f30ba4061a1b!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Weesperplein 4A, 1018 XA Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.3619902,
+        "longitude": 4.9069378
+      },
+      "rating": 5,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 20,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 8:00 AM – 8:00 PM",
+          "Tuesday: 8:00 AM – 8:00 PM",
+          "Wednesday: 8:00 AM – 8:00 PM",
+          "Thursday: 8:00 AM – 8:00 PM",
+          "Friday: 8:00 AM – 8:00 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ],
+        "nextCloseTime": "2025-08-01T18:00:00Z"
+      },
+      "userRatingCount": 17,
+      "displayName": {
+        "text": "Coffee & Ice Cream by Capital Kitchen",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c60902d6950347:0x99f72bdc67e89837!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=11094384432686602295&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c60902d6950347:0x99f72bdc67e89837!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c60902d6950347:0x99f72bdc67e89837!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c60902d6950347:0x99f72bdc67e89837!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Jonge Roelensteeg 4 H, 1012 PL Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.3721512,
+        "longitude": 4.8917570999999995
+      },
+      "rating": 4.8,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 14,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 15,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 15,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 15,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 15,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 15,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 15,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 1,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 3:00 PM – 1:00 AM",
+          "Tuesday: 3:00 PM – 1:00 AM",
+          "Wednesday: 3:00 PM – 1:00 AM",
+          "Thursday: 3:00 PM – 1:00 AM",
+          "Friday: 3:00 PM – 1:00 AM",
+          "Saturday: 3:00 PM – 1:00 AM",
+          "Sunday: 2:00 PM – 12:00 AM"
+        ],
+        "nextCloseTime": "2025-08-01T23:00:00Z"
+      },
+      "userRatingCount": 352,
+      "displayName": {
+        "text": "Cafe the Barrel",
+        "languageCode": "en"
+      },
+      "primaryType": "bar",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c60910869384b5:0xd60cc485b685c9d9!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=15423918902409021913&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c60910869384b5:0xd60cc485b685c9d9!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c60910869384b5:0xd60cc485b685c9d9!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c60910869384b5:0xd60cc485b685c9d9!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Amstelstraat 35, 1017 DA Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.366239300000004,
+        "longitude": 4.8994313
+      },
+      "rating": 4.5,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 1,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 10:00 AM – 1:00 AM",
+          "Tuesday: 10:00 AM – 1:00 AM",
+          "Wednesday: 10:00 AM – 1:00 AM",
+          "Thursday: 10:00 AM – 1:00 AM",
+          "Friday: 10:00 AM – 1:00 AM",
+          "Saturday: 10:00 AM – 1:00 AM",
+          "Sunday: 10:00 AM – 1:00 AM"
+        ],
+        "nextCloseTime": "2025-08-01T23:00:00Z"
+      },
+      "userRatingCount": 926,
+      "displayName": {
+        "text": "Kooi Coffeeshop",
+        "languageCode": "nl"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609958b4aeefb:0x7f4991bd09155269!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=9172022357203964521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609958b4aeefb:0x7f4991bd09155269!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609958b4aeefb:0x7f4991bd09155269!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609958b4aeefb:0x7f4991bd09155269!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Singel 387, 1012 WN Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.368757699999996,
+        "longitude": 4.8882696999999995
+      },
+      "rating": 4.4,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 9,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 1,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 9:00 AM – 1:00 AM",
+          "Tuesday: 9:00 AM – 1:00 AM",
+          "Wednesday: 9:00 AM – 1:00 AM",
+          "Thursday: 9:00 AM – 1:00 AM",
+          "Friday: 9:00 AM – 1:00 AM",
+          "Saturday: 9:00 AM – 1:00 AM",
+          "Sunday: 9:00 AM – 1:00 AM"
+        ],
+        "nextCloseTime": "2025-08-01T23:00:00Z"
+      },
+      "userRatingCount": 559,
+      "displayName": {
+        "text": "Strain Hunters Coffeeshop",
+        "languageCode": "nl"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609c2275b742b:0x4886c8e38f56a73c!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=5226085297297991484&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609c2275b742b:0x4886c8e38f56a73c!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609c2275b742b:0x4886c8e38f56a73c!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609c2275b742b:0x4886c8e38f56a73c!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Gustav Mahlerlaan 16, 1082 LS Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.336807699999994,
+        "longitude": 4.8727225999999995
+      },
+      "rating": 4.5,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 1,
+              "hour": 7,
+              "minute": 45
+            },
+            "close": {
+              "day": 1,
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 7,
+              "minute": 45
+            },
+            "close": {
+              "day": 2,
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 7,
+              "minute": 45
+            },
+            "close": {
+              "day": 3,
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 7,
+              "minute": 45
+            },
+            "close": {
+              "day": 4,
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 7,
+              "minute": 45
+            },
+            "close": {
+              "day": 5,
+              "hour": 18,
+              "minute": 30
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 7:45 AM – 6:30 PM",
+          "Tuesday: 7:45 AM – 6:30 PM",
+          "Wednesday: 7:45 AM – 6:30 PM",
+          "Thursday: 7:45 AM – 6:30 PM",
+          "Friday: 7:45 AM – 6:30 PM",
+          "Saturday: Closed",
+          "Sunday: Closed"
+        ],
+        "nextCloseTime": "2025-08-01T16:30:00Z"
+      },
+      "userRatingCount": 298,
+      "displayName": {
+        "text": "Doppio Espresso Amsterdam Zuidas",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c60a059fbb078f:0x904ee814158f5935!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=10398503762603759925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c60a059fbb078f:0x904ee814158f5935!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c60a059fbb078f:0x904ee814158f5935!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c60a059fbb078f:0x904ee814158f5935!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Utrechtsestraat 27HS, 1017 VH Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.364776199999994,
+        "longitude": 4.8980473
+      },
+      "rating": 4.5,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 23,
+              "minute": 30
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 8,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 30
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 8:00 AM – 11:30 PM",
+          "Tuesday: 8:00 AM – 11:30 PM",
+          "Wednesday: 8:00 AM – 11:30 PM",
+          "Thursday: 8:00 AM – 11:30 PM",
+          "Friday: 8:00 AM – 11:30 PM",
+          "Saturday: 8:00 AM – 11:30 PM",
+          "Sunday: 8:00 AM – 11:30 PM"
+        ],
+        "nextCloseTime": "2025-08-01T21:30:00Z"
+      },
+      "userRatingCount": 94,
+      "displayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c6090fd7716781:0x308830de48481ce0!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=3497098841906748640&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c6090fd7716781:0x308830de48481ce0!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c6090fd7716781:0x308830de48481ce0!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c6090fd7716781:0x308830de48481ce0!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Oosterdoksstraat 4, 1011 DK Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.376894,
+        "longitude": 4.9043325
+      },
+      "rating": 4.4,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 30
+            },
+            "close": {
+              "day": 1,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 30
+            },
+            "close": {
+              "day": 4,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 30
+            },
+            "close": {
+              "day": 5,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 7,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 21,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:30 AM – 9:00 PM",
+          "Tuesday: 6:30 AM – 9:00 PM",
+          "Wednesday: 6:30 AM – 9:00 PM",
+          "Thursday: 6:30 AM – 9:00 PM",
+          "Friday: 6:30 AM – 9:00 PM",
+          "Saturday: 7:00 AM – 9:00 PM",
+          "Sunday: 7:00 AM – 9:00 PM"
+        ],
+        "nextCloseTime": "2025-08-01T19:00:00Z"
+      },
+      "userRatingCount": 722,
+      "displayName": {
+        "text": "LOT61 Amsterdam Centraal Station",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c60974e9438f5b:0x42c1d419ef3fbd41!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=4810359084861603137&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c60974e9438f5b:0x42c1d419ef3fbd41!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c60974e9438f5b:0x42c1d419ef3fbd41!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c60974e9438f5b:0x42c1d419ef3fbd41!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Aalsmeerweg 38 H, 1059 AK Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.3499185,
+        "longitude": 4.8491875
+      },
+      "rating": 4.9,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 15,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 15,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 15,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 15,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 15,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 15,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 3,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 15,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 3,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 3:00 PM – 1:00 AM",
+          "Tuesday: 3:00 PM – 1:00 AM",
+          "Wednesday: 3:00 PM – 1:00 AM",
+          "Thursday: 3:00 PM – 1:00 AM",
+          "Friday: 3:00 PM – 3:00 AM",
+          "Saturday: 3:00 PM – 3:00 AM",
+          "Sunday: 3:00 PM – 1:00 AM"
+        ],
+        "nextCloseTime": "2025-08-02T01:00:00Z"
+      },
+      "userRatingCount": 36,
+      "displayName": {
+        "text": "Café Rexi Amsterdam",
+        "languageCode": "nl"
+      },
+      "primaryType": "pub",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c5e3c520f21a0d:0xd27d634536503dfe!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=15167388268968820222&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e3c520f21a0d:0xd27d634536503dfe!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c5e3c520f21a0d:0xd27d634536503dfe!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e3c520f21a0d:0xd27d634536503dfe!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Sint Luciënsteeg 21, 1012 PM Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.3706508,
+        "longitude": 4.8910036
+      },
+      "rating": 4.4,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 19,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 19,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 19,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 19,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 20,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 20,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 10:00 AM – 7:00 PM",
+          "Tuesday: 10:00 AM – 7:00 PM",
+          "Wednesday: 10:00 AM – 7:00 PM",
+          "Thursday: 10:00 AM – 7:00 PM",
+          "Friday: 10:00 AM – 8:00 PM",
+          "Saturday: 10:00 AM – 8:00 PM",
+          "Sunday: 10:00 AM – 8:00 PM"
+        ],
+        "nextCloseTime": "2025-08-01T18:00:00Z"
+      },
+      "userRatingCount": 939,
+      "displayName": {
+        "text": "Coffee & Cakes.",
+        "languageCode": "en"
+      },
+      "primaryType": "coffee_shop",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c609c1170434eb:0xb2d80e4251fe09f4!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=12887066011726907892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609c1170434eb:0xb2d80e4251fe09f4!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c609c1170434eb:0xb2d80e4251fe09f4!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c609c1170434eb:0xb2d80e4251fe09f4!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    },
+    {
+      "formattedAddress": "Overtoom 411, 1054 JR Amsterdam, Netherlands",
+      "location": {
+        "latitude": 52.3591063,
+        "longitude": 4.861316899999999
+      },
+      "rating": 4.9,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 16,
+              "minute": 30
+            },
+            "close": {
+              "day": 2,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 16,
+              "minute": 30
+            },
+            "close": {
+              "day": 3,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 16,
+              "minute": 30
+            },
+            "close": {
+              "day": 4,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 16,
+              "minute": 30
+            },
+            "close": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 17,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 1,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 4:30 PM – 12:00 AM",
+          "Tuesday: 4:30 PM – 12:00 AM",
+          "Wednesday: 4:30 PM – 12:00 AM",
+          "Thursday: 4:30 PM – 12:00 AM",
+          "Friday: 5:00 PM – 1:00 AM",
+          "Saturday: 10:00 AM – 1:00 AM",
+          "Sunday: 10:00 AM – 11:00 PM"
+        ],
+        "nextCloseTime": "2025-08-01T23:00:00Z"
+      },
+      "userRatingCount": 540,
+      "displayName": {
+        "text": "Bariq Mediterranean Food & Wine Bar",
+        "languageCode": "en"
+      },
+      "primaryType": "wine_bar",
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c5e3b77b118177:0x61494a3605562ea0!3e0?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "placeUri": "https://maps.google.com/?cid=7010215890857111200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e3b77b118177:0x61494a3605562ea0!12e1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x47c5e3b77b118177:0x61494a3605562ea0!9m1!1b1?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x47c5e3b77b118177:0x61494a3605562ea0!10e5?g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA"
+      }
+    }
+  ]
+}

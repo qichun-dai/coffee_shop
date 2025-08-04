@@ -145,36 +145,52 @@ def finding_stars(row_index, link, driver, coffees_df):
 
     try:
         
-        # scroll this element
-        scrollable = "/html/body/div[1]/div[3]/div[8]/div[9]/div/div/div[1]/div[2]/div/div[1]"
+        # First, try to find the scrollable container using multiple approaches
+        print("Looking for scrollable container...")
+        wait = WebDriverWait(driver, 15)
         
-        # Wait for the scrollable element to be present
-        wait = WebDriverWait(driver, 10)
-        scrollable_element = wait.until(EC.presence_of_element_located((By.XPATH, scrollable)))
+        scrollable_element = None
         
-        print("Scrolling down to load all rating elements...")
+        # Method 1: Try to find a common scrollable container
+        try:
+            scrollable_element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "[role='main'], .m6QErb, .siAUzd")))
+            print("Found scrollable container using CSS selector")
+        except:
+            # Method 2: Fallback to original XPath
+            try:
+                scrollable = "/html/body/div[1]/div[3]/div[8]/div[9]/div/div/div[1]/div[2]/div/div[1]"
+                scrollable_element = wait.until(EC.presence_of_element_located((By.XPATH, scrollable)))
+                print("Found scrollable container using XPath fallback")
+            except:
+                # Method 3: Try to scroll the whole body
+                scrollable_element = driver.find_element(By.TAG_NAME, "body")
+                print("Using body element for scrolling")
         
-        # # Method 1: Scroll down multiple times to ensure all content is loaded
-        # for scroll_attempt in range(5):  # Scroll 5 times
-        #     driver.execute_script("arguments[0].scrollTop += 300;", scrollable_element)
-        #     time.sleep(1)  # Wait between scrolls
-        #     print(f"Scroll attempt {scroll_attempt + 1}")
-        
-        # Method 2: Scroll to the bottom of the element
-        driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight;", scrollable_element)
-        time.sleep(2)  # Wait for content to load after scrolling to bottom
+        if scrollable_element:
+            print("Scrolling down to load all rating elements...")
+            
+            # Method 2: Scroll to the bottom of the element
+            driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight;", scrollable_element)
+            time.sleep(3)  # Wait longer for content to load after scrolling
+            
+            # Additional scroll attempts to ensure everything loads
+            for i in range(3):
+                driver.execute_script("arguments[0].scrollTop += 500;", scrollable_element)
+                time.sleep(1)
+                print(f"Additional scroll {i+1}")
         
         print("Finished scrolling, waiting for content to load...")
         
-        # Wait for the table to be present first, then find aria-label elements
-        wait = WebDriverWait(driver, 10)
+        # Wait for the ratings table to be present using CSS selector
+        wait = WebDriverWait(driver, 15)
         
-        # Wait for at least one element with aria-label to be present in the table
-        wait.until(EC.presence_of_element_located((By.XPATH, f"{table_xpath}//*[@aria-label]")))
+        # Wait for the div with class ExlQHd to be present
+        ratings_container = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.ExlQHd")))
+        print("Found ratings container with class 'ExlQHd'")
         
-        # Now find all elements with aria-label within the specific table
-        aria_elements = driver.find_elements(By.XPATH, f"{table_xpath}//*[@aria-label]")
-        print(f"Found {len(aria_elements)} elements with aria-label in the table")
+        # Find all <tr> elements with aria-label within the ratings container
+        aria_elements = ratings_container.find_elements(By.CSS_SELECTOR, "tr[aria-label]")
+        print(f"Found {len(aria_elements)} tr elements with aria-label in the ratings table")
         
         for i, element in enumerate(aria_elements):
             aria_label = element.get_attribute("aria-label")
@@ -182,6 +198,8 @@ def finding_stars(row_index, link, driver, coffees_df):
 
             star = splited[0].split()[0]
             number = splited[1].split()[0]
+            number = number.replace(".", "").replace(",", "")  # Remove dots and commas from numbers
+            
 
             # Update the original DataFrame using .loc with row index
             coffees_df.loc[row_index, f"{star}"] = int(number)
