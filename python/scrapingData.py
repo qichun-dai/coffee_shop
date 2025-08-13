@@ -8,7 +8,6 @@ import pandas as pd
 from datetime import datetime
 import math
 
-
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 # csv file location
 CSV_LOCATION = os.path.join(".","data","coffee_shops_processed_20250811_114420.csv")

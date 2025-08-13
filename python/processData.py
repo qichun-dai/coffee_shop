@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 from dateutil import tz
 
-coffee_file = os.path.join(".", "data", "coffee_shops_response_20250811_111944.json")
+coffee_file = os.path.join(".", "data", "coffee_shops_response_20250813_114243.json")
 
 with open(coffee_file, mode="r", encoding='utf-8') as file:
     coffee_raw = json.load(file)
@@ -97,10 +97,12 @@ def get_local_hour(utc_time_str):
 
 # Create DataFrame from the list of dictionaries
 coffee_final = pd.DataFrame(data_list)
+# TO-DO: Filter out coffee places that opens after 11 pm
 coffee_final["nextCloseHour"] = coffee_final["nextCloseTime"].apply(get_local_hour)
 coffee_final["trueCoffee"] =  (
-    (coffee_final["nextCloseHour"] <= 22) & (coffee_final["nextCloseHour"] >= 5)
+    ((coffee_final["nextCloseHour"] <= 23) & (coffee_final["nextCloseHour"] >= 5)) | coffee_final["nextCloseHour"].isna()
 ).astype(int)
+coffee_final = coffee_final.drop_duplicates()
 
 
 print(f"DataFrame shape: {coffee_final.shape}")

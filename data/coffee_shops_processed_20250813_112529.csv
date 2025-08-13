@@ -1,0 +1,701 @@
+﻿"displayName","rating","userRatingCount","primaryType","placeUri","address","latitude","longitude","weekdayDescriptions","nextCloseTime","nextCloseHour","trueCoffee"
+"Kafenion Amsterdam","4.9","3042","cafe","https://maps.google.com/?cid=13799867098777125081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Bloemgracht 49, 1016 KD Amsterdam, Netherlands","52.374677","4.8813721999999995","Monday: 8:00 AM - 7:00 PM
+Tuesday: 8:00 AM - 7:00 PM
+Wednesday: 8:00 AM - 7:00 PM
+Thursday: 8:00 AM - 7:00 PM
+Friday: 8:00 AM - 7:00 PM
+Saturday: 9:00 AM - 7:30 PM
+Sunday: 9:00 AM - 7:30 PM","2025-08-13T17:00:00Z","19.0","1"
+"Luuk's Coffee Noordermarkt","4.8","882","coffee_shop","https://maps.google.com/?cid=11045848961108365584&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Westerstraat 3, 1015 LT Amsterdam, Netherlands","52.378763899999996","4.8862575","Monday: 7:30 AM - 4:30 PM
+Tuesday: 7:30 AM - 4:30 PM
+Wednesday: 7:30 AM - 4:30 PM
+Thursday: 7:30 AM - 4:30 PM
+Friday: 7:30 AM - 4:30 PM
+Saturday: 8:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T14:30:00Z","16.0","1"
+"Koffiespot","4.5","595","coffee_shop","https://maps.google.com/?cid=2122484869929095106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Elandsgracht 53, 1016 TN Amsterdam, Netherlands","52.3694002","4.8805982","Monday: 8:00 AM - 6:00 PM
+Tuesday: 8:00 AM - 6:00 PM
+Wednesday: 8:00 AM - 6:00 PM
+Thursday: 8:00 AM - 6:00 PM
+Friday: 8:00 AM - 6:00 PM
+Saturday: 9:00 AM - 6:00 PM
+Sunday: 9:00 AM - 6:00 PM","2025-08-13T16:00:00Z","18.0","1"
+"Haku Specialty Coffee","4.8","329","food_store","https://maps.google.com/?cid=6154733505273622538&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Rozengracht 69, 1016 LT Amsterdam, Netherlands","52.373287999999995","4.880800499999999","Monday: 8:00 AM - 5:00 PM
+Tuesday: 8:00 AM - 5:00 PM
+Wednesday: 8:00 AM - 5:00 PM
+Thursday: 8:00 AM - 5:00 PM
+Friday: 8:00 AM - 5:00 PM
+Saturday: 9:00 AM - 6:00 PM
+Sunday: 9:00 AM - 6:00 PM","2025-08-13T15:00:00Z","17.0","1"
+"Bruno’s Amsterdam","4.9","306","coffee_shop","https://maps.google.com/?cid=16925071792895390583&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Tweede Goudsbloemdwarsstraat 3C, 1015 JX Amsterdam, Netherlands","52.381000199999995","4.8840619","Monday: 7:30 AM - 1:00 PM
+Tuesday: 7:30 AM - 2:00 PM
+Wednesday: 7:30 AM - 2:00 PM
+Thursday: 7:30 AM - 2:00 PM
+Friday: 7:30 AM - 2:00 PM
+Saturday: 7:30 AM - 4:00 PM
+Sunday: 10:00 AM - 2:00 PM","2025-08-13T12:00:00Z","14.0","1"
+"Coffeeshop La Tertulia","4.5","884","store","https://maps.google.com/?cid=18115952138417670872&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 312, 1016 HX Amsterdam, Netherlands","52.3694808","4.8822851","Monday: Closed
+Tuesday: 11:00 AM - 7:00 PM
+Wednesday: 11:00 AM - 7:00 PM
+Thursday: 11:00 AM - 7:00 PM
+Friday: 11:00 AM - 7:00 PM
+Saturday: 11:00 AM - 7:00 PM
+Sunday: Closed","2025-08-13T17:00:00Z","19.0","1"
+"Wandu Amsterdam","4.5","297","coffee_shop","https://maps.google.com/?cid=9430587355522644994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Lauriergracht 71 H, 1016 RH Amsterdam, Netherlands","52.3709293","4.8796324","Monday: 9:00 AM - 5:00 PM
+Tuesday: 8:30 AM - 5:00 PM
+Wednesday: 8:30 AM - 5:00 PM
+Thursday: 8:30 AM - 5:00 PM
+Friday: 8:30 AM - 5:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 10:00 AM - 5:00 PM","2025-08-13T15:00:00Z","17.0","1"
+"NU koffie & delicatessen","4.9","335","coffee_shop","https://maps.google.com/?cid=7660499236096519594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Tweede Egelantiersdwarsstraat 13H, 1015 SB Amsterdam, Netherlands","52.37659310000001","4.8822931","Monday: 8:00 AM - 5:00 PM
+Tuesday: 8:00 AM - 5:00 PM
+Wednesday: 8:00 AM - 5:00 PM
+Thursday: 8:00 AM - 5:00 PM
+Friday: 8:00 AM - 5:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T15:00:00Z","17.0","1"
+"Café ""De Eland""","4.5","555","cafe","https://maps.google.com/?cid=11417938627537812902&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 296, 1016 HW Amsterdam, Netherlands","52.369993699999995","4.8823104","Monday: 10:00 AM - 1:00 AM
+Tuesday: 10:00 AM - 1:00 AM
+Wednesday: 10:00 AM - 1:00 AM
+Thursday: 10:00 AM - 1:00 AM
+Friday: 10:00 AM - 2:00 AM
+Saturday: 10:00 AM - 2:00 AM
+Sunday: 10:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"Coffeeshop Johnny","4.5","489","store","https://maps.google.com/?cid=5780646184476203844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Elandsgracht 3, 1016 TM Amsterdam, Netherlands","52.369937699999994","4.882089199999999","Monday: 9:00 AM - 12:00 AM
+Tuesday: 9:00 AM - 12:00 AM
+Wednesday: 9:00 AM - 12:00 AM
+Thursday: 9:00 AM - 12:00 AM
+Friday: 9:00 AM - 12:00 AM
+Saturday: 9:00 AM - 12:00 AM
+Sunday: 9:00 AM - 12:00 AM","2025-08-13T22:00:00Z","0.0","0"
+"Moods Coffee Corner","4.7","798","breakfast_restaurant","https://maps.google.com/?cid=16500492570205299249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Lindengracht 249, 1015 KH Amsterdam, Netherlands","52.379482499999995","4.8806432","Monday: 8:00 AM - 3:00 PM
+Tuesday: 8:00 AM - 3:00 PM
+Wednesday: 8:00 AM - 3:00 PM
+Thursday: 8:00 AM - 3:00 PM
+Friday: 8:00 AM - 3:00 PM
+Saturday: 8:00 AM - 4:00 PM
+Sunday: 9:00 AM - 3:00 PM","2025-08-13T13:00:00Z","15.0","1"
+"Coffeeshop The Spirit","4.7","903","store","https://maps.google.com/?cid=9110170179142861681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Westerstraat 121, 1015 LZ Amsterdam, Netherlands","52.378192299999995","4.8829389999999995","Monday: 10:00 AM - 1:00 AM
+Tuesday: 10:00 AM - 1:00 AM
+Wednesday: 10:00 AM - 1:00 AM
+Thursday: 10:00 AM - 1:00 AM
+Friday: 10:00 AM - 1:00 AM
+Saturday: 10:00 AM - 1:00 AM
+Sunday: 10:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"Rum Baba","4.7","421","","https://maps.google.com/?cid=6154861780410789025&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Elandsgracht 134, 1016 VC Amsterdam, Netherlands","52.3691337","4.8787234","Monday: 8:00 AM - 4:30 PM
+Tuesday: 8:00 AM - 4:30 PM
+Wednesday: 8:00 AM - 4:30 PM
+Thursday: 8:00 AM - 4:30 PM
+Friday: 8:00 AM - 4:30 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T14:30:00Z","16.0","1"
+"The Papeneiland Café","4.5","2303","cafe","https://maps.google.com/?cid=13199520713548089325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 2, 1015 DV Amsterdam, Netherlands","52.380462699999995","4.8879703999999995","Monday: 10:00 AM - 1:00 AM
+Tuesday: 10:00 AM - 1:00 AM
+Wednesday: 10:00 AM - 1:00 AM
+Thursday: 10:00 AM - 1:00 AM
+Friday: 10:00 AM - 3:00 AM
+Saturday: 10:00 AM - 3:00 AM
+Sunday: 12:00 PM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"ASOP Café by Amplify - specialty coffee","5.0","43","cafe","https://maps.google.com/?cid=3536194542087187303&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Willemsstraat 141, 1015 JC Amsterdam, Netherlands","52.380877999999996","4.8826239","Monday: Closed
+Tuesday: 9:00 AM - 4:00 PM
+Wednesday: 9:00 AM - 4:00 PM
+Thursday: 9:00 AM - 4:00 PM
+Friday: 9:00 AM - 4:00 PM
+Saturday: 9:00 AM - 4:00 PM
+Sunday: 9:00 AM - 4:00 PM","2025-08-13T14:00:00Z","16.0","1"
+"Paradox Coffeeshop","4.6","1580","store","https://maps.google.com/?cid=16423332139205053463&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Eerste Bloemdwarsstraat 2R, 1016 KS Amsterdam, Netherlands","52.3745562","4.8812221","Monday: 11:00 AM - 8:00 PM
+Tuesday: 11:00 AM - 8:00 PM
+Wednesday: 11:00 AM - 8:00 PM
+Thursday: 11:00 AM - 8:00 PM
+Friday: 11:00 AM - 8:00 PM
+Saturday: 11:00 AM - 8:00 PM
+Sunday: 11:00 AM - 8:00 PM","2025-08-13T18:00:00Z","20.0","1"
+"Café De Prins","4.4","749","cafe","https://maps.google.com/?cid=7672675033870264935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 124, 1015 EA Amsterdam, Netherlands","52.37615830000001","4.8839833","Monday: 10:00 AM - 1:00 AM
+Tuesday: 10:00 AM - 1:00 AM
+Wednesday: 10:00 AM - 1:00 AM
+Thursday: 10:00 AM - 1:00 AM
+Friday: 10:00 AM - 2:00 AM
+Saturday: 10:00 AM - 2:00 AM
+Sunday: 10:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"Café 't Smalle","4.6","1356","pub","https://maps.google.com/?cid=17163431979133748336&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Egelantiersgracht 12, 1015 RL Amsterdam, Netherlands","52.3767128","4.8841696","Monday: 2:00 PM - 12:00 AM
+Tuesday: 2:00 PM - 12:00 AM
+Wednesday: 2:00 PM - 12:00 AM
+Thursday: 2:00 PM - 12:00 AM
+Friday: 1:00 PM - 1:00 AM
+Saturday: 12:00 PM - 1:00 AM
+Sunday: 12:00 - 10:00 PM","","","0"
+"Festina Lente","4.4","669","cafe","https://maps.google.com/?cid=17278967085454762013&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Looiersgracht 40B, 1016 VL Amsterdam, Netherlands","52.368652999999995","4.881389599999999","Monday: 10:00 AM - 12:00 AM
+Tuesday: 10:00 AM - 12:00 AM
+Wednesday: 10:00 AM - 1:00 AM
+Thursday: 10:00 AM - 1:00 AM
+Friday: 10:00 AM - 3:00 AM
+Saturday: 11:00 AM - 3:00 AM
+Sunday: 11:00 AM - 11:00 PM","2025-08-13T23:00:00Z","1.0","0"
+"Kessens","4.6","848","restaurant","https://maps.google.com/?cid=14121141204177226521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Rozengracht 24, 1016 NC Amsterdam, Netherlands","52.373863199999995","4.881938","Monday: 8:30 AM - 4:00 PM
+Tuesday: 8:30 AM - 4:00 PM
+Wednesday: 8:30 AM - 4:00 PM
+Thursday: 8:30 AM - 4:00 PM
+Friday: 8:30 AM - 4:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T14:00:00Z","16.0","1"
+"Jardin","4.9","228","cafe","https://maps.google.com/?cid=3277337338909203433&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Brouwersgracht 113HS, 1015 GD Amsterdam, Netherlands","52.3809024","4.8872195","Monday: 8:00 AM - 5:00 PM
+Tuesday: 8:00 AM - 5:00 PM
+Wednesday: 8:00 AM - 5:00 PM
+Thursday: 8:00 AM - 5:00 PM
+Friday: 8:00 AM - 5:00 PM
+Saturday: 8:00 AM - 5:00 PM
+Sunday: 8:00 AM - 5:00 PM","2025-08-13T15:00:00Z","17.0","1"
+"Coffeeshop 137","4.6","803","store","https://maps.google.com/?cid=3289401408972893374&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Brouwersgracht 137H, 1015 GE Amsterdam, Netherlands","52.381431199999994","4.886298","Monday: 8:00 AM - 12:55 AM
+Tuesday: 8:00 AM - 12:55 AM
+Wednesday: 8:00 AM - 12:55 AM
+Thursday: 8:00 AM - 12:55 AM
+Friday: 8:00 AM - 12:55 AM
+Saturday: 8:00 AM - 12:55 AM
+Sunday: 8:00 AM - 12:55 AM","2025-08-13T22:55:00Z","0.0","0"
+"Café 't Monumentje","4.5","304","cafe","https://maps.google.com/?cid=14721143599965014059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Westerstraat 120, 1015 MP Amsterdam, Netherlands","52.3785348","4.8831014","Monday: 8:30 AM - 1:00 AM
+Tuesday: 8:30 AM - 1:00 AM
+Wednesday: 8:30 AM - 1:00 AM
+Thursday: 8:30 AM - 1:00 AM
+Friday: 8:30 AM - 2:00 AM
+Saturday: 9:00 AM - 2:00 AM
+Sunday: 11:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"Café Sonneveld","4.5","3975","restaurant","https://maps.google.com/?cid=5154369206102618573&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Egelantiersgracht 72 74, 1015 SC Amsterdam, Netherlands","52.3763328","4.882285899999999","Monday: 11:00 AM - 11:00 PM
+Tuesday: 11:00 AM - 11:00 PM
+Wednesday: 11:00 AM - 11:00 PM
+Thursday: 11:00 AM - 11:00 PM
+Friday: 11:00 AM - 11:00 PM
+Saturday: 11:00 AM - 11:00 PM
+Sunday: 11:00 AM - 11:00 PM","2025-08-13T21:00:00Z","23.0","0"
+"Piqniq","4.7","1547","brunch_restaurant","https://maps.google.com/?cid=1863378062783191712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Lindengracht 59HS, 1015 KC Amsterdam, Netherlands","52.3803024","4.8860939","Monday: Closed
+Tuesday: 9:00 AM - 4:00 PM
+Wednesday: 9:00 AM - 4:00 PM
+Thursday: 9:00 AM - 4:00 PM
+Friday: 9:00 AM - 4:00 PM
+Saturday: 9:00 AM - 4:00 PM
+Sunday: Closed","2025-08-13T14:00:00Z","16.0","1"
+"The African Blackstar Coffeeshop","4.5","539","store","https://maps.google.com/?cid=14960073998463154414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Rozengracht 1-A, 1016 LP Amsterdam, Netherlands","52.3737427","4.8825699","Monday: 11:00 AM - 12:00 AM
+Tuesday: 11:00 AM - 12:00 AM
+Wednesday: 11:00 AM - 12:00 AM
+Thursday: 11:00 AM - 12:00 AM
+Friday: 11:00 AM - 1:00 AM
+Saturday: 11:00 AM - 1:00 AM
+Sunday: 11:00 AM - 12:00 AM","2025-08-13T22:00:00Z","0.0","0"
+"Tha Dogg House a Snoop Dogg Store","4.4","414","coffee_shop","https://maps.google.com/?cid=16144764438666098397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Marnixstraat 333, 1016 TC Amsterdam, Netherlands","52.3727133","4.8761101","Monday: 9:00 AM - 1:00 AM
+Tuesday: 9:00 AM - 1:00 AM
+Wednesday: 9:00 AM - 1:00 AM
+Thursday: 9:00 AM - 1:00 AM
+Friday: 8:00 AM - 1:00 AM
+Saturday: 8:00 AM - 1:00 AM
+Sunday: 8:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"'T Keteltje Coffeeshop","4.3","150","store","https://maps.google.com/?cid=9343748674433442372&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Marnixstraat 74, 1015 VX Amsterdam, Netherlands","52.379610799999995","4.8796346","Monday: 9:00 AM - 1:00 AM
+Tuesday: 9:00 AM - 1:00 AM
+Wednesday: 9:00 AM - 1:00 AM
+Thursday: 9:00 AM - 1:00 AM
+Friday: 9:00 AM - 1:00 AM
+Saturday: 9:00 AM - 1:00 AM
+Sunday: 9:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"Box Sociaal Jordaan","4.6","944","restaurant","https://maps.google.com/?cid=9496910841604152645&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Bloemgracht 47, 1016 KD Amsterdam, Netherlands","52.374667099999996","4.8814858","Monday: 9:00 AM - 10:00 PM
+Tuesday: 9:00 AM - 3:45 PM
+Wednesday: 9:00 AM - 3:45 PM
+Thursday: 9:00 AM - 10:00 PM
+Friday: 9:00 AM - 10:00 PM
+Saturday: 9:00 AM - 10:00 PM
+Sunday: 9:00 AM - 10:00 PM","2025-08-13T13:45:00Z","15.0","1"
+"LOT61 Coffee Roasters","4.6","1930","food_store","https://maps.google.com/?cid=15526938402491586985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Kinkerstraat 112, 1053 ED Amsterdam, Netherlands","52.3668272","4.870314","Monday: 8:00 AM - 6:00 PM
+Tuesday: 8:00 AM - 6:00 PM
+Wednesday: 8:00 AM - 6:00 PM
+Thursday: 8:00 AM - 6:00 PM
+Friday: 8:00 AM - 6:00 PM
+Saturday: 9:00 AM - 6:00 PM
+Sunday: 9:00 AM - 6:00 PM","2025-08-13T16:00:00Z","18.0","1"
+"New Dutch Amsterdam","4.6","1553","restaurant","https://maps.google.com/?cid=1105883560866564385&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 60-62, 1015 DX Amsterdam, Netherlands","52.377925399999995","4.8856158","Monday: 9:00 AM - 3:00 PM
+Tuesday: Closed
+Wednesday: 9:00 AM - 3:00 PM
+Thursday: 9:00 AM - 9:00 PM
+Friday: 9:00 AM - 10:00 PM
+Saturday: 9:00 AM - 10:00 PM
+Sunday: 9:00 AM - 3:00 PM","2025-08-13T13:00:00Z","15.0","1"
+"Café Thijssen","4.2","1924","cafe","https://maps.google.com/?cid=9412826351239130282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Brouwersgracht 107, 1015 GD Amsterdam, Netherlands","52.380810399999994","4.8873031","Monday: 8:00 AM - 1:00 AM
+Tuesday: 8:00 AM - 1:00 AM
+Wednesday: 8:00 AM - 1:00 AM
+Thursday: 8:00 AM - 1:00 AM
+Friday: 8:00 AM - 3:00 AM
+Saturday: 8:00 AM - 3:00 AM
+Sunday: 9:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"Five Ways Coffee Roasters","4.6","310","cafe","https://maps.google.com/?cid=6515543384646289734&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Kinkerstraat 186, 1053 CG Amsterdam, Netherlands","52.366029499999996","4.8673108","Monday: 7:30 AM - 4:30 PM
+Tuesday: 7:30 AM - 4:30 PM
+Wednesday: 7:30 AM - 4:30 PM
+Thursday: 7:30 AM - 4:30 PM
+Friday: 7:30 AM - 4:30 PM
+Saturday: 8:30 AM - 5:30 PM
+Sunday: 8:30 AM - 5:30 PM","2025-08-13T14:30:00Z","16.0","1"
+"Dak Showroom by Dak Coffee Roasters","4.8","124","coffee_shop","https://maps.google.com/?cid=10131096394286370724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Bellamyplein 16H, 1053 AS Amsterdam, Netherlands","52.3684127","4.867310499999999","Monday: 8:00 AM - 5:00 PM
+Tuesday: 8:00 AM - 5:00 PM
+Wednesday: 8:00 AM - 5:00 PM
+Thursday: 8:00 AM - 5:00 PM
+Friday: 8:00 AM - 5:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T15:00:00Z","17.0","1"
+"Coffeshop S.W.E.D","4.5","44","coffee_shop","https://maps.google.com/?cid=13210071391626428354&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Marnixstraat 333, 1016 TC Amsterdam, Netherlands","52.3727133","4.8761101","Monday: 7:00 AM - 1:00 AM
+Tuesday: 7:00 AM - 1:00 AM
+Wednesday: 7:00 AM - 1:00 AM
+Thursday: 7:00 AM - 1:00 AM
+Friday: 7:00 AM - 1:00 AM
+Saturday: 7:00 AM - 1:00 AM
+Sunday: 7:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"SAINT-JEAN Bakery","4.4","2432","bakery","https://maps.google.com/?cid=1072463508424207136&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Lindengracht 158h, 1015 KK Amsterdam, Netherlands","52.3803056","4.884282400000001","Monday: 8:00 AM - 5:00 PM
+Tuesday: 8:00 AM - 5:00 PM
+Wednesday: 8:00 AM - 5:00 PM
+Thursday: 8:00 AM - 5:00 PM
+Friday: 8:00 AM - 5:00 PM
+Saturday: 8:00 AM - 5:00 PM
+Sunday: 8:00 AM - 5:00 PM","2025-08-13T15:00:00Z","17.0","1"
+"The Coffee","4.7","87","coffee_shop","https://maps.google.com/?cid=357014870337086946&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Eerste Constantijn Huygensstraat 33, 1054 BR Amsterdam, Netherlands","52.3643064","4.8744765","Monday: 8:00 AM - 5:00 PM
+Tuesday: 8:00 AM - 5:00 PM
+Wednesday: 8:00 AM - 5:00 PM
+Thursday: 8:00 AM - 5:00 PM
+Friday: 8:00 AM - 5:00 PM
+Saturday: 9:00 AM - 5:30 PM
+Sunday: 9:00 AM - 5:30 PM","2025-08-13T15:00:00Z","17.0","1"
+"Teds Amsterdam Jordaan - All Day Brunch","4.0","1089","brunch_restaurant","https://maps.google.com/?cid=17622026709628872196&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 178, 1016 HB Amsterdam, Netherlands","52.3742446","4.882630499999999","Monday: 9:00 AM - 5:00 PM
+Tuesday: 9:00 AM - 5:00 PM
+Wednesday: 9:00 AM - 5:00 PM
+Thursday: 9:00 AM - 5:00 PM
+Friday: 9:00 AM - 5:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T15:00:00Z","17.0","1"
+"Cloud","4.6","256","cafe","https://maps.google.com/?cid=590780870598905531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 276, 1016 HJ Amsterdam, Netherlands","52.3709324","4.8824399","Monday: 9:00 AM - 5:00 PM
+Tuesday: 9:00 AM - 5:00 PM
+Wednesday: 9:00 AM - 5:00 PM
+Thursday: 9:00 AM - 5:00 PM
+Friday: 9:00 AM - 5:00 PM
+Saturday: 11:00 AM - 6:00 PM
+Sunday: 12:00 - 6:00 PM","2025-08-13T15:00:00Z","17.0","1"
+"Café Hegeraad","4.3","692","cafe","https://maps.google.com/?cid=12574791311601030454&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Noordermarkt 34, 1015 NA Amsterdam, Netherlands","52.3793461","4.8860358","Monday: 8:00 AM - 1:00 AM
+Tuesday: 8:00 AM - 1:00 AM
+Wednesday: 8:00 AM - 1:00 AM
+Thursday: 8:00 AM - 1:00 AM
+Friday: 8:00 AM - 3:00 AM
+Saturday: 8:00 AM - 1:00 AM
+Sunday: 11:00 AM - 9:00 PM","2025-08-13T23:00:00Z","1.0","0"
+"Café de Tuin","4.4","740","pub","https://maps.google.com/?cid=3222113916165505208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Tweede Tuindwarsstraat 13, 1015 RX Amsterdam, Netherlands","52.377139299999996","4.8819751","Monday: 10:00 AM - 1:00 AM
+Tuesday: 10:00 AM - 1:00 AM
+Wednesday: 10:00 AM - 1:00 AM
+Thursday: 10:00 AM - 1:00 AM
+Friday: 10:00 AM - 3:00 AM
+Saturday: 10:00 AM - 3:00 AM
+Sunday: 11:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"Glitch Bakery","4.7","114","bakery","https://maps.google.com/?cid=1982176872173876892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Tweede Anjeliersdwarsstraat 22D, 1015 NT Amsterdam, Netherlands","52.377492399999994","4.8815548","Monday: 9:00 AM - 4:00 PM
+Tuesday: 9:00 AM - 4:00 PM
+Wednesday: 9:00 AM - 4:00 PM
+Thursday: 9:00 AM - 4:00 PM
+Friday: 9:00 AM - 5:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 4:00 PM","2025-08-13T14:00:00Z","16.0","1"
+"Toki","4.5","1148","coffee_shop","https://maps.google.com/?cid=291165814650215684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Binnen Dommersstraat 15, 1013 HK Amsterdam, Netherlands","52.3829109","4.885517500000001","Monday: 8:00 AM - 5:00 PM
+Tuesday: 8:00 AM - 5:00 PM
+Wednesday: 8:00 AM - 5:00 PM
+Thursday: 8:00 AM - 5:00 PM
+Friday: 8:00 AM - 5:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T15:00:00Z","17.0","1"
+"Tazzina","4.4","396","coffee_shop","https://maps.google.com/?cid=15732791459697938837&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Brouwersgracht 139, 1015 GG Amsterdam, Netherlands","52.3815453","4.8860524","Monday: 8:00 AM - 5:30 PM
+Tuesday: 8:00 AM - 5:30 PM
+Wednesday: 8:00 AM - 5:30 PM
+Thursday: 8:00 AM - 5:30 PM
+Friday: 8:00 AM - 5:30 PM
+Saturday: 9:00 AM - 5:30 PM
+Sunday: 9:00 AM - 5:30 PM","2025-08-13T15:30:00Z","17.0","1"
+"Barney's Coffeeshop Amsterdam THC Cannabis Dispensary","4.6","4783","store","https://maps.google.com/?cid=16644677838783126486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Haarlemmerstraat 102, 1013 EW Amsterdam, Netherlands","52.3806892","4.8908553","Monday: 9:00 AM - 1:00 AM
+Tuesday: 9:00 AM - 1:00 AM
+Wednesday: 9:00 AM - 1:00 AM
+Thursday: 9:00 AM - 1:00 AM
+Friday: 9:00 AM - 1:00 AM
+Saturday: 9:00 AM - 1:00 AM
+Sunday: 9:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"Margo's Amsterdam","4.8","926","bakery","https://maps.google.com/?cid=17486028924287960656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Eerste Tuindwarsstraat 2A, 1015 RV Amsterdam, Netherlands","52.3777616","4.8835489999999995","Monday: 9:00 AM - 4:00 PM
+Tuesday: 9:00 AM - 4:00 PM
+Wednesday: 9:00 AM - 4:00 PM
+Thursday: 9:00 AM - 4:00 PM
+Friday: 9:00 AM - 4:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T14:00:00Z","16.0","1"
+"Winkel 43","4.5","14072","cafe","https://maps.google.com/?cid=16418887331371252674&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Noordermarkt 43, 1015 NA Amsterdam, Netherlands","52.3790944","4.8862844999999995","Monday: 7:00 AM - 1:00 AM
+Tuesday: 8:00 AM - 1:00 AM
+Wednesday: 8:00 AM - 1:00 AM
+Thursday: 8:00 AM - 1:00 AM
+Friday: 8:00 AM - 2:00 AM
+Saturday: 7:00 AM - 2:00 AM
+Sunday: 9:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"Hummingbird Coffee Amsterdam","4.6","852","coffee_shop","https://maps.google.com/?cid=16912688596054977832&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Spuistraat 217, 1012 RN Amsterdam, Netherlands","52.371586799999996","4.8895102999999995","Monday: 8:30 AM - 5:00 PM
+Tuesday: 8:30 AM - 5:00 PM
+Wednesday: 8:30 AM - 5:00 PM
+Thursday: 8:30 AM - 5:00 PM
+Friday: 8:30 AM - 5:00 PM
+Saturday: 9:00 AM - 5:30 PM
+Sunday: 9:00 AM - 5:30 PM","2025-08-13T15:00:00Z","17.0","1"
+"WesterPerk Coffee & Shop","5.0","174","coffee_shop","https://maps.google.com/?cid=8089785487367323549&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Kostverlorenstraat 11H, 1052 GS Amsterdam, Netherlands","52.3786067","4.8740747","Monday: 7:30 AM - 4:30 PM
+Tuesday: 7:30 AM - 4:30 PM
+Wednesday: 7:30 AM - 4:30 PM
+Thursday: 7:30 AM - 4:30 PM
+Friday: 7:30 AM - 4:30 PM
+Saturday: 8:00 AM - 4:00 PM
+Sunday: 9:00 AM - 4:00 PM","2025-08-13T14:30:00Z","16.0","1"
+"Caffè il Momento","4.6","873","coffee_shop","https://maps.google.com/?cid=16136560569487544155&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Singel 180, 1015 AJ Amsterdam, Netherlands","52.374684599999995","4.8890461","Monday: 8:00 AM - 6:00 PM
+Tuesday: 8:00 AM - 6:00 PM
+Wednesday: 8:00 AM - 6:00 PM
+Thursday: 8:00 AM - 6:00 PM
+Friday: 8:00 AM - 6:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T16:00:00Z","18.0","1"
+"Monks Coffee Roasters.","4.7","874","cafe","https://maps.google.com/?cid=5891699866678143707&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Bilderdijkstraat 46H, 1052 NB Amsterdam, Netherlands","52.3712151","4.8702463","Monday: 8:00 AM - 4:00 PM
+Tuesday: 8:00 AM - 4:00 PM
+Wednesday: 8:00 AM - 4:00 PM
+Thursday: 8:00 AM - 4:00 PM
+Friday: 8:00 AM - 4:00 PM
+Saturday: 9:00 AM - 4:00 PM
+Sunday: 9:00 AM - 4:00 PM","2025-08-13T14:00:00Z","16.0","1"
+"Salon de Kunst (X ART&APTT.)","5.0","17","cafe","https://maps.google.com/?cid=14123985059906068524&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Eerste Looiersdwarsstraat 28, 1016 VM Amsterdam, Netherlands","52.3686394","4.881185100000001","Monday: Closed
+Tuesday: 12:00 - 7:00 PM
+Wednesday: 11:00 AM - 6:00 PM
+Thursday: 11:00 AM - 6:00 PM
+Friday: 11:00 AM - 6:00 PM
+Saturday: 11:00 AM - 6:00 PM
+Sunday: Closed","2025-08-13T16:00:00Z","18.0","1"
+"Eetcafé Roem","4.4","448","restaurant","https://maps.google.com/?cid=17325638425628874788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 126, 1015 EA Amsterdam, Netherlands","52.376098299999995","4.8839996999999995","Monday: 10:00 AM - 9:00 PM
+Tuesday: 10:00 AM - 9:00 PM
+Wednesday: 10:00 AM - 9:00 PM
+Thursday: 10:00 AM - 9:00 PM
+Friday: 10:00 AM - 9:00 PM
+Saturday: 10:00 AM - 9:00 PM
+Sunday: 10:00 AM - 9:00 PM","2025-08-13T19:00:00Z","21.0","1"
+"Koffie Academie","4.6","851","cafe","https://maps.google.com/?cid=17553798295527386772&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Overtoom 95, 1054 HD Amsterdam, Netherlands","52.362382999999994","4.8746811","Monday: 8:30 AM - 4:00 PM
+Tuesday: 8:30 AM - 4:00 PM
+Wednesday: 8:30 AM - 4:00 PM
+Thursday: 8:30 AM - 4:00 PM
+Friday: 8:30 AM - 4:00 PM
+Saturday: 9:00 AM - 4:00 PM
+Sunday: 9:00 AM - 4:00 PM","2025-08-13T14:00:00Z","16.0","1"
+"Café Brakke","4.6","209","cafe","https://maps.google.com/?cid=15519311632671071311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Rozengracht 16, 1016 NB Amsterdam, Netherlands","52.373901","4.8821319999999995","Monday: 12:00 PM - 1:00 AM
+Tuesday: 12:00 PM - 1:00 AM
+Wednesday: 12:00 PM - 1:00 AM
+Thursday: 12:00 PM - 1:00 AM
+Friday: 12:00 PM - 3:00 AM
+Saturday: 12:00 PM - 3:00 AM
+Sunday: 12:00 PM - 1:00 AM","","","0"
+"Bocca Coffee","4.4","1863","coffee_shop","https://maps.google.com/?cid=18188383309989194106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Kerkstraat 96H, 1017 GP Amsterdam, Netherlands","52.3643905","4.8868164","Monday: 8:00 AM - 6:00 PM
+Tuesday: 8:00 AM - 6:00 PM
+Wednesday: 8:00 AM - 6:00 PM
+Thursday: 8:00 AM - 6:00 PM
+Friday: 8:00 AM - 6:00 PM
+Saturday: 9:00 AM - 6:00 PM
+Sunday: 9:00 AM - 6:00 PM","2025-08-13T16:00:00Z","18.0","1"
+"Café P96","4.4","976","cafe","https://maps.google.com/?cid=17019371292035918747&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 96, 1015 DZ Amsterdam, Netherlands","52.377067399999994","4.884866","Monday: 12:00 PM - 3:00 AM
+Tuesday: 4:00 PM - 3:00 AM
+Wednesday: 12:00 PM - 3:00 AM
+Thursday: 12:00 PM - 3:00 AM
+Friday: 12:00 PM - 3:00 AM
+Saturday: 12:00 PM - 4:00 AM
+Sunday: 12:00 PM - 3:00 AM","","","0"
+"Coffeeshop Bronx","4.4","87","store","https://maps.google.com/?cid=12143195995867215452&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Marnixstraat 92, 1015 VZ Amsterdam, Netherlands","52.379128099999996","4.879378399999999","Monday: 10:00 AM - 12:00 AM
+Tuesday: 10:00 AM - 12:00 AM
+Wednesday: 10:00 AM - 12:00 AM
+Thursday: 10:00 AM - 12:00 AM
+Friday: 10:00 AM - 12:00 AM
+Saturday: 10:00 AM - 12:00 AM
+Sunday: 10:00 AM - 12:00 AM","2025-08-13T22:00:00Z","0.0","0"
+"Koffiehuis 'De Hoek'.","4.3","915","cafe","https://maps.google.com/?cid=4327257471598489669&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 341, 1016 HK Amsterdam, Netherlands","52.3723306","4.8832472","Monday: 8:30 AM - 4:30 PM
+Tuesday: 8:30 AM - 4:30 PM
+Wednesday: 8:30 AM - 4:30 PM
+Thursday: 8:30 AM - 4:30 PM
+Friday: 8:30 AM - 4:30 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T14:30:00Z","16.0","1"
+"Berry Amsterdam","4.7","460","coffee_shop","https://maps.google.com/?cid=1163045397431648299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Bilderdijkkade 27, 1053 VH Amsterdam, Netherlands","52.3684802","4.8701227","Monday: Closed
+Tuesday: 8:00 AM - 5:00 PM
+Wednesday: 8:00 AM - 5:00 PM
+Thursday: 8:00 AM - 5:00 PM
+Friday: 8:00 AM - 5:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 10:00 AM - 5:00 PM","2025-08-13T15:00:00Z","17.0","1"
+"Café de Tuin","4.4","740","pub","https://maps.google.com/?cid=3222113916165505208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Tweede Tuindwarsstraat 13, 1015 RX Amsterdam, Netherlands","52.377139299999996","4.8819751","Monday: 10:00 AM - 1:00 AM
+Tuesday: 10:00 AM - 1:00 AM
+Wednesday: 10:00 AM - 1:00 AM
+Thursday: 10:00 AM - 1:00 AM
+Friday: 10:00 AM - 3:00 AM
+Saturday: 10:00 AM - 3:00 AM
+Sunday: 11:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"Glitch Bakery","4.7","114","bakery","https://maps.google.com/?cid=1982176872173876892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Tweede Anjeliersdwarsstraat 22D, 1015 NT Amsterdam, Netherlands","52.377492399999994","4.8815548","Monday: 9:00 AM - 4:00 PM
+Tuesday: 9:00 AM - 4:00 PM
+Wednesday: 9:00 AM - 4:00 PM
+Thursday: 9:00 AM - 4:00 PM
+Friday: 9:00 AM - 5:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 4:00 PM","2025-08-13T14:00:00Z","16.0","1"
+"Toki","4.5","1148","coffee_shop","https://maps.google.com/?cid=291165814650215684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Binnen Dommersstraat 15, 1013 HK Amsterdam, Netherlands","52.3829109","4.885517500000001","Monday: 8:00 AM - 5:00 PM
+Tuesday: 8:00 AM - 5:00 PM
+Wednesday: 8:00 AM - 5:00 PM
+Thursday: 8:00 AM - 5:00 PM
+Friday: 8:00 AM - 5:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T15:00:00Z","17.0","1"
+"Tazzina","4.4","396","coffee_shop","https://maps.google.com/?cid=15732791459697938837&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Brouwersgracht 139, 1015 GG Amsterdam, Netherlands","52.3815453","4.8860524","Monday: 8:00 AM - 5:30 PM
+Tuesday: 8:00 AM - 5:30 PM
+Wednesday: 8:00 AM - 5:30 PM
+Thursday: 8:00 AM - 5:30 PM
+Friday: 8:00 AM - 5:30 PM
+Saturday: 9:00 AM - 5:30 PM
+Sunday: 9:00 AM - 5:30 PM","2025-08-13T15:30:00Z","17.0","1"
+"Barney's Coffeeshop Amsterdam THC Cannabis Dispensary","4.6","4783","store","https://maps.google.com/?cid=16644677838783126486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Haarlemmerstraat 102, 1013 EW Amsterdam, Netherlands","52.3806892","4.8908553","Monday: 9:00 AM - 1:00 AM
+Tuesday: 9:00 AM - 1:00 AM
+Wednesday: 9:00 AM - 1:00 AM
+Thursday: 9:00 AM - 1:00 AM
+Friday: 9:00 AM - 1:00 AM
+Saturday: 9:00 AM - 1:00 AM
+Sunday: 9:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"Margo's Amsterdam","4.8","926","bakery","https://maps.google.com/?cid=17486028924287960656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Eerste Tuindwarsstraat 2A, 1015 RV Amsterdam, Netherlands","52.3777616","4.8835489999999995","Monday: 9:00 AM - 4:00 PM
+Tuesday: 9:00 AM - 4:00 PM
+Wednesday: 9:00 AM - 4:00 PM
+Thursday: 9:00 AM - 4:00 PM
+Friday: 9:00 AM - 4:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T14:00:00Z","16.0","1"
+"Winkel 43","4.5","14072","cafe","https://maps.google.com/?cid=16418887331371252674&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Noordermarkt 43, 1015 NA Amsterdam, Netherlands","52.3790944","4.8862844999999995","Monday: 7:00 AM - 1:00 AM
+Tuesday: 8:00 AM - 1:00 AM
+Wednesday: 8:00 AM - 1:00 AM
+Thursday: 8:00 AM - 1:00 AM
+Friday: 8:00 AM - 2:00 AM
+Saturday: 7:00 AM - 2:00 AM
+Sunday: 9:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"Hummingbird Coffee Amsterdam","4.6","852","coffee_shop","https://maps.google.com/?cid=16912688596054977832&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Spuistraat 217, 1012 RN Amsterdam, Netherlands","52.371586799999996","4.8895102999999995","Monday: 8:30 AM - 5:00 PM
+Tuesday: 8:30 AM - 5:00 PM
+Wednesday: 8:30 AM - 5:00 PM
+Thursday: 8:30 AM - 5:00 PM
+Friday: 8:30 AM - 5:00 PM
+Saturday: 9:00 AM - 5:30 PM
+Sunday: 9:00 AM - 5:30 PM","2025-08-13T15:00:00Z","17.0","1"
+"WesterPerk Coffee & Shop","5.0","174","coffee_shop","https://maps.google.com/?cid=8089785487367323549&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Kostverlorenstraat 11H, 1052 GS Amsterdam, Netherlands","52.3786067","4.8740747","Monday: 7:30 AM - 4:30 PM
+Tuesday: 7:30 AM - 4:30 PM
+Wednesday: 7:30 AM - 4:30 PM
+Thursday: 7:30 AM - 4:30 PM
+Friday: 7:30 AM - 4:30 PM
+Saturday: 8:00 AM - 4:00 PM
+Sunday: 9:00 AM - 4:00 PM","2025-08-13T14:30:00Z","16.0","1"
+"Caffè il Momento","4.6","873","coffee_shop","https://maps.google.com/?cid=16136560569487544155&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Singel 180, 1015 AJ Amsterdam, Netherlands","52.374684599999995","4.8890461","Monday: 8:00 AM - 6:00 PM
+Tuesday: 8:00 AM - 6:00 PM
+Wednesday: 8:00 AM - 6:00 PM
+Thursday: 8:00 AM - 6:00 PM
+Friday: 8:00 AM - 6:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T16:00:00Z","18.0","1"
+"Monks Coffee Roasters.","4.7","874","cafe","https://maps.google.com/?cid=5891699866678143707&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Bilderdijkstraat 46H, 1052 NB Amsterdam, Netherlands","52.3712151","4.8702463","Monday: 8:00 AM - 4:00 PM
+Tuesday: 8:00 AM - 4:00 PM
+Wednesday: 8:00 AM - 4:00 PM
+Thursday: 8:00 AM - 4:00 PM
+Friday: 8:00 AM - 4:00 PM
+Saturday: 9:00 AM - 4:00 PM
+Sunday: 9:00 AM - 4:00 PM","2025-08-13T14:00:00Z","16.0","1"
+"Salon de Kunst (X ART&APTT.)","5.0","17","cafe","https://maps.google.com/?cid=14123985059906068524&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Eerste Looiersdwarsstraat 28, 1016 VM Amsterdam, Netherlands","52.3686394","4.881185100000001","Monday: Closed
+Tuesday: 12:00 - 7:00 PM
+Wednesday: 11:00 AM - 6:00 PM
+Thursday: 11:00 AM - 6:00 PM
+Friday: 11:00 AM - 6:00 PM
+Saturday: 11:00 AM - 6:00 PM
+Sunday: Closed","2025-08-13T16:00:00Z","18.0","1"
+"Eetcafé Roem","4.4","448","restaurant","https://maps.google.com/?cid=17325638425628874788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 126, 1015 EA Amsterdam, Netherlands","52.376098299999995","4.8839996999999995","Monday: 10:00 AM - 9:00 PM
+Tuesday: 10:00 AM - 9:00 PM
+Wednesday: 10:00 AM - 9:00 PM
+Thursday: 10:00 AM - 9:00 PM
+Friday: 10:00 AM - 9:00 PM
+Saturday: 10:00 AM - 9:00 PM
+Sunday: 10:00 AM - 9:00 PM","2025-08-13T19:00:00Z","21.0","1"
+"Koffie Academie","4.6","851","cafe","https://maps.google.com/?cid=17553798295527386772&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Overtoom 95, 1054 HD Amsterdam, Netherlands","52.362382999999994","4.8746811","Monday: 8:30 AM - 4:00 PM
+Tuesday: 8:30 AM - 4:00 PM
+Wednesday: 8:30 AM - 4:00 PM
+Thursday: 8:30 AM - 4:00 PM
+Friday: 8:30 AM - 4:00 PM
+Saturday: 9:00 AM - 4:00 PM
+Sunday: 9:00 AM - 4:00 PM","2025-08-13T14:00:00Z","16.0","1"
+"Café Brakke","4.6","209","cafe","https://maps.google.com/?cid=15519311632671071311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Rozengracht 16, 1016 NB Amsterdam, Netherlands","52.373901","4.8821319999999995","Monday: 12:00 PM - 1:00 AM
+Tuesday: 12:00 PM - 1:00 AM
+Wednesday: 12:00 PM - 1:00 AM
+Thursday: 12:00 PM - 1:00 AM
+Friday: 12:00 PM - 3:00 AM
+Saturday: 12:00 PM - 3:00 AM
+Sunday: 12:00 PM - 1:00 AM","","","0"
+"Bocca Coffee","4.4","1863","coffee_shop","https://maps.google.com/?cid=18188383309989194106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Kerkstraat 96H, 1017 GP Amsterdam, Netherlands","52.3643905","4.8868164","Monday: 8:00 AM - 6:00 PM
+Tuesday: 8:00 AM - 6:00 PM
+Wednesday: 8:00 AM - 6:00 PM
+Thursday: 8:00 AM - 6:00 PM
+Friday: 8:00 AM - 6:00 PM
+Saturday: 9:00 AM - 6:00 PM
+Sunday: 9:00 AM - 6:00 PM","2025-08-13T16:00:00Z","18.0","1"
+"Café P96","4.4","976","cafe","https://maps.google.com/?cid=17019371292035918747&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 96, 1015 DZ Amsterdam, Netherlands","52.377067399999994","4.884866","Monday: 12:00 PM - 3:00 AM
+Tuesday: 4:00 PM - 3:00 AM
+Wednesday: 12:00 PM - 3:00 AM
+Thursday: 12:00 PM - 3:00 AM
+Friday: 12:00 PM - 3:00 AM
+Saturday: 12:00 PM - 4:00 AM
+Sunday: 12:00 PM - 3:00 AM","","","0"
+"Coffeeshop Bronx","4.4","87","store","https://maps.google.com/?cid=12143195995867215452&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Marnixstraat 92, 1015 VZ Amsterdam, Netherlands","52.379128099999996","4.879378399999999","Monday: 10:00 AM - 12:00 AM
+Tuesday: 10:00 AM - 12:00 AM
+Wednesday: 10:00 AM - 12:00 AM
+Thursday: 10:00 AM - 12:00 AM
+Friday: 10:00 AM - 12:00 AM
+Saturday: 10:00 AM - 12:00 AM
+Sunday: 10:00 AM - 12:00 AM","2025-08-13T22:00:00Z","0.0","0"
+"Koffiehuis 'De Hoek'.","4.3","915","cafe","https://maps.google.com/?cid=4327257471598489669&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 341, 1016 HK Amsterdam, Netherlands","52.3723306","4.8832472","Monday: 8:30 AM - 4:30 PM
+Tuesday: 8:30 AM - 4:30 PM
+Wednesday: 8:30 AM - 4:30 PM
+Thursday: 8:30 AM - 4:30 PM
+Friday: 8:30 AM - 4:30 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T14:30:00Z","16.0","1"
+"Berry Amsterdam","4.7","460","coffee_shop","https://maps.google.com/?cid=1163045397431648299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Bilderdijkkade 27, 1053 VH Amsterdam, Netherlands","52.3684802","4.8701227","Monday: Closed
+Tuesday: 8:00 AM - 5:00 PM
+Wednesday: 8:00 AM - 5:00 PM
+Thursday: 8:00 AM - 5:00 PM
+Friday: 8:00 AM - 5:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 10:00 AM - 5:00 PM","2025-08-13T15:00:00Z","17.0","1"
+"Café de Tuin","4.4","740","pub","https://maps.google.com/?cid=3222113916165505208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Tweede Tuindwarsstraat 13, 1015 RX Amsterdam, Netherlands","52.377139299999996","4.8819751","Monday: 10:00 AM - 1:00 AM
+Tuesday: 10:00 AM - 1:00 AM
+Wednesday: 10:00 AM - 1:00 AM
+Thursday: 10:00 AM - 1:00 AM
+Friday: 10:00 AM - 3:00 AM
+Saturday: 10:00 AM - 3:00 AM
+Sunday: 11:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"Glitch Bakery","4.7","114","bakery","https://maps.google.com/?cid=1982176872173876892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Tweede Anjeliersdwarsstraat 22D, 1015 NT Amsterdam, Netherlands","52.377492399999994","4.8815548","Monday: 9:00 AM - 4:00 PM
+Tuesday: 9:00 AM - 4:00 PM
+Wednesday: 9:00 AM - 4:00 PM
+Thursday: 9:00 AM - 4:00 PM
+Friday: 9:00 AM - 5:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 4:00 PM","2025-08-13T14:00:00Z","16.0","1"
+"Toki","4.5","1148","coffee_shop","https://maps.google.com/?cid=291165814650215684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Binnen Dommersstraat 15, 1013 HK Amsterdam, Netherlands","52.3829109","4.885517500000001","Monday: 8:00 AM - 5:00 PM
+Tuesday: 8:00 AM - 5:00 PM
+Wednesday: 8:00 AM - 5:00 PM
+Thursday: 8:00 AM - 5:00 PM
+Friday: 8:00 AM - 5:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T15:00:00Z","17.0","1"
+"Tazzina","4.4","396","coffee_shop","https://maps.google.com/?cid=15732791459697938837&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Brouwersgracht 139, 1015 GG Amsterdam, Netherlands","52.3815453","4.8860524","Monday: 8:00 AM - 5:30 PM
+Tuesday: 8:00 AM - 5:30 PM
+Wednesday: 8:00 AM - 5:30 PM
+Thursday: 8:00 AM - 5:30 PM
+Friday: 8:00 AM - 5:30 PM
+Saturday: 9:00 AM - 5:30 PM
+Sunday: 9:00 AM - 5:30 PM","2025-08-13T15:30:00Z","17.0","1"
+"Barney's Coffeeshop Amsterdam THC Cannabis Dispensary","4.6","4783","store","https://maps.google.com/?cid=16644677838783126486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Haarlemmerstraat 102, 1013 EW Amsterdam, Netherlands","52.3806892","4.8908553","Monday: 9:00 AM - 1:00 AM
+Tuesday: 9:00 AM - 1:00 AM
+Wednesday: 9:00 AM - 1:00 AM
+Thursday: 9:00 AM - 1:00 AM
+Friday: 9:00 AM - 1:00 AM
+Saturday: 9:00 AM - 1:00 AM
+Sunday: 9:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"Margo's Amsterdam","4.8","926","bakery","https://maps.google.com/?cid=17486028924287960656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Eerste Tuindwarsstraat 2A, 1015 RV Amsterdam, Netherlands","52.3777616","4.8835489999999995","Monday: 9:00 AM - 4:00 PM
+Tuesday: 9:00 AM - 4:00 PM
+Wednesday: 9:00 AM - 4:00 PM
+Thursday: 9:00 AM - 4:00 PM
+Friday: 9:00 AM - 4:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T14:00:00Z","16.0","1"
+"Winkel 43","4.5","14072","cafe","https://maps.google.com/?cid=16418887331371252674&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Noordermarkt 43, 1015 NA Amsterdam, Netherlands","52.3790944","4.8862844999999995","Monday: 7:00 AM - 1:00 AM
+Tuesday: 8:00 AM - 1:00 AM
+Wednesday: 8:00 AM - 1:00 AM
+Thursday: 8:00 AM - 1:00 AM
+Friday: 8:00 AM - 2:00 AM
+Saturday: 7:00 AM - 2:00 AM
+Sunday: 9:00 AM - 1:00 AM","2025-08-13T23:00:00Z","1.0","0"
+"Hummingbird Coffee Amsterdam","4.6","852","coffee_shop","https://maps.google.com/?cid=16912688596054977832&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Spuistraat 217, 1012 RN Amsterdam, Netherlands","52.371586799999996","4.8895102999999995","Monday: 8:30 AM - 5:00 PM
+Tuesday: 8:30 AM - 5:00 PM
+Wednesday: 8:30 AM - 5:00 PM
+Thursday: 8:30 AM - 5:00 PM
+Friday: 8:30 AM - 5:00 PM
+Saturday: 9:00 AM - 5:30 PM
+Sunday: 9:00 AM - 5:30 PM","2025-08-13T15:00:00Z","17.0","1"
+"WesterPerk Coffee & Shop","5.0","174","coffee_shop","https://maps.google.com/?cid=8089785487367323549&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Kostverlorenstraat 11H, 1052 GS Amsterdam, Netherlands","52.3786067","4.8740747","Monday: 7:30 AM - 4:30 PM
+Tuesday: 7:30 AM - 4:30 PM
+Wednesday: 7:30 AM - 4:30 PM
+Thursday: 7:30 AM - 4:30 PM
+Friday: 7:30 AM - 4:30 PM
+Saturday: 8:00 AM - 4:00 PM
+Sunday: 9:00 AM - 4:00 PM","2025-08-13T14:30:00Z","16.0","1"
+"Caffè il Momento","4.6","873","coffee_shop","https://maps.google.com/?cid=16136560569487544155&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Singel 180, 1015 AJ Amsterdam, Netherlands","52.374684599999995","4.8890461","Monday: 8:00 AM - 6:00 PM
+Tuesday: 8:00 AM - 6:00 PM
+Wednesday: 8:00 AM - 6:00 PM
+Thursday: 8:00 AM - 6:00 PM
+Friday: 8:00 AM - 6:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T16:00:00Z","18.0","1"
+"Monks Coffee Roasters.","4.7","874","cafe","https://maps.google.com/?cid=5891699866678143707&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Bilderdijkstraat 46H, 1052 NB Amsterdam, Netherlands","52.3712151","4.8702463","Monday: 8:00 AM - 4:00 PM
+Tuesday: 8:00 AM - 4:00 PM
+Wednesday: 8:00 AM - 4:00 PM
+Thursday: 8:00 AM - 4:00 PM
+Friday: 8:00 AM - 4:00 PM
+Saturday: 9:00 AM - 4:00 PM
+Sunday: 9:00 AM - 4:00 PM","2025-08-13T14:00:00Z","16.0","1"
+"Salon de Kunst (X ART&APTT.)","5.0","17","cafe","https://maps.google.com/?cid=14123985059906068524&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Eerste Looiersdwarsstraat 28, 1016 VM Amsterdam, Netherlands","52.3686394","4.881185100000001","Monday: Closed
+Tuesday: 12:00 - 7:00 PM
+Wednesday: 11:00 AM - 6:00 PM
+Thursday: 11:00 AM - 6:00 PM
+Friday: 11:00 AM - 6:00 PM
+Saturday: 11:00 AM - 6:00 PM
+Sunday: Closed","2025-08-13T16:00:00Z","18.0","1"
+"Eetcafé Roem","4.4","448","restaurant","https://maps.google.com/?cid=17325638425628874788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 126, 1015 EA Amsterdam, Netherlands","52.376098299999995","4.8839996999999995","Monday: 10:00 AM - 9:00 PM
+Tuesday: 10:00 AM - 9:00 PM
+Wednesday: 10:00 AM - 9:00 PM
+Thursday: 10:00 AM - 9:00 PM
+Friday: 10:00 AM - 9:00 PM
+Saturday: 10:00 AM - 9:00 PM
+Sunday: 10:00 AM - 9:00 PM","2025-08-13T19:00:00Z","21.0","1"
+"Koffie Academie","4.6","851","cafe","https://maps.google.com/?cid=17553798295527386772&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Overtoom 95, 1054 HD Amsterdam, Netherlands","52.362382999999994","4.8746811","Monday: 8:30 AM - 4:00 PM
+Tuesday: 8:30 AM - 4:00 PM
+Wednesday: 8:30 AM - 4:00 PM
+Thursday: 8:30 AM - 4:00 PM
+Friday: 8:30 AM - 4:00 PM
+Saturday: 9:00 AM - 4:00 PM
+Sunday: 9:00 AM - 4:00 PM","2025-08-13T14:00:00Z","16.0","1"
+"Café Brakke","4.6","209","cafe","https://maps.google.com/?cid=15519311632671071311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Rozengracht 16, 1016 NB Amsterdam, Netherlands","52.373901","4.8821319999999995","Monday: 12:00 PM - 1:00 AM
+Tuesday: 12:00 PM - 1:00 AM
+Wednesday: 12:00 PM - 1:00 AM
+Thursday: 12:00 PM - 1:00 AM
+Friday: 12:00 PM - 3:00 AM
+Saturday: 12:00 PM - 3:00 AM
+Sunday: 12:00 PM - 1:00 AM","","","0"
+"Bocca Coffee","4.4","1863","coffee_shop","https://maps.google.com/?cid=18188383309989194106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Kerkstraat 96H, 1017 GP Amsterdam, Netherlands","52.3643905","4.8868164","Monday: 8:00 AM - 6:00 PM
+Tuesday: 8:00 AM - 6:00 PM
+Wednesday: 8:00 AM - 6:00 PM
+Thursday: 8:00 AM - 6:00 PM
+Friday: 8:00 AM - 6:00 PM
+Saturday: 9:00 AM - 6:00 PM
+Sunday: 9:00 AM - 6:00 PM","2025-08-13T16:00:00Z","18.0","1"
+"Café P96","4.4","976","cafe","https://maps.google.com/?cid=17019371292035918747&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 96, 1015 DZ Amsterdam, Netherlands","52.377067399999994","4.884866","Monday: 12:00 PM - 3:00 AM
+Tuesday: 4:00 PM - 3:00 AM
+Wednesday: 12:00 PM - 3:00 AM
+Thursday: 12:00 PM - 3:00 AM
+Friday: 12:00 PM - 3:00 AM
+Saturday: 12:00 PM - 4:00 AM
+Sunday: 12:00 PM - 3:00 AM","","","0"
+"Coffeeshop Bronx","4.4","87","store","https://maps.google.com/?cid=12143195995867215452&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Marnixstraat 92, 1015 VZ Amsterdam, Netherlands","52.379128099999996","4.879378399999999","Monday: 10:00 AM - 12:00 AM
+Tuesday: 10:00 AM - 12:00 AM
+Wednesday: 10:00 AM - 12:00 AM
+Thursday: 10:00 AM - 12:00 AM
+Friday: 10:00 AM - 12:00 AM
+Saturday: 10:00 AM - 12:00 AM
+Sunday: 10:00 AM - 12:00 AM","2025-08-13T22:00:00Z","0.0","0"
+"Koffiehuis 'De Hoek'.","4.3","915","cafe","https://maps.google.com/?cid=4327257471598489669&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Prinsengracht 341, 1016 HK Amsterdam, Netherlands","52.3723306","4.8832472","Monday: 8:30 AM - 4:30 PM
+Tuesday: 8:30 AM - 4:30 PM
+Wednesday: 8:30 AM - 4:30 PM
+Thursday: 8:30 AM - 4:30 PM
+Friday: 8:30 AM - 4:30 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 9:00 AM - 5:00 PM","2025-08-13T14:30:00Z","16.0","1"
+"Berry Amsterdam","4.7","460","coffee_shop","https://maps.google.com/?cid=1163045397431648299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQABgEIAA","Bilderdijkkade 27, 1053 VH Amsterdam, Netherlands","52.3684802","4.8701227","Monday: Closed
+Tuesday: 8:00 AM - 5:00 PM
+Wednesday: 8:00 AM - 5:00 PM
+Thursday: 8:00 AM - 5:00 PM
+Friday: 8:00 AM - 5:00 PM
+Saturday: 9:00 AM - 5:00 PM
+Sunday: 10:00 AM - 5:00 PM","2025-08-13T15:00:00Z","17.0","1"
