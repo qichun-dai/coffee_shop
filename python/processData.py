@@ -2,8 +2,9 @@ import pandas as pd
 import json
 import os
 from datetime import datetime
+from dateutil import tz
 
-coffee_file = os.path.join(".", "data", "coffee_shops_response_20250804_160229.json")
+coffee_file = os.path.join(".", "data", "coffee_shops_response_20250811_111944.json")
 
 with open(coffee_file, mode="r", encoding='utf-8') as file:
     coffee_raw = json.load(file)
@@ -33,6 +34,7 @@ for coffee in coffee_raw["places"]:
     address = safe_get(coffee, "formattedAddress", default="")
     latitude = safe_get(coffee, "location", "latitude", default=0.0)
     longitude = safe_get(coffee, "location", "longitude", default=0.0)
+    nextCloseTime = safe_get(coffee,"regularOpeningHours","nextCloseTime", default="")
     
     # Debug: Print if primaryType is missing or unusual
     if primaryType == "unknown":
@@ -64,14 +66,42 @@ for coffee in coffee_raw["places"]:
         "address": address,
         "latitude": latitude,
         "longitude": longitude,
-        "weekdayDescriptions": weekday_clean
+        "weekdayDescriptions": weekday_clean,
+        "nextCloseTime": nextCloseTime
     })
     
-    
-
+ 
+# convert to local time
+def get_local_hour(utc_time_str):
+    """Simple conversion to local system timezone"""
+    try:
+        if not utc_time_str or utc_time_str == "":
+            return None
+            
+        # Parse UTC time
+        if isinstance(utc_time_str, str):
+            if utc_time_str.endswith('Z'):
+                utc_time = datetime.fromisoformat(utc_time_str.replace('Z', '+00:00'))
+            else:
+                utc_time = datetime.fromisoformat(utc_time_str)
+        else:
+            return None
+            
+        # Convert to local system timezone
+        local_time = utc_time.astimezone(tz.tzlocal())
+        return local_time.hour
+        
+    except Exception as e:
+        print(f"Error processing time {utc_time_str}: {e}")
+        return None
 
 # Create DataFrame from the list of dictionaries
 coffee_final = pd.DataFrame(data_list)
+coffee_final["nextCloseHour"] = coffee_final["nextCloseTime"].apply(get_local_hour)
+coffee_final["trueCoffee"] =  (
+    (coffee_final["nextCloseHour"] <= 22) & (coffee_final["nextCloseHour"] >= 5)
+).astype(int)
+
 
 print(f"DataFrame shape: {coffee_final.shape}")
 print("\nDataFrame head:")

@@ -1,0 +1,14 @@
+{
+  "status_code": 400,
+  "error_text": "{\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"field\": \"places.displayName,places.formattedAddress,places.location,places.rating,places.userRatingCount,places.googleMapsLinks,places.primaryType,places.regularOpeningHours, nextPageToken\",\n            \"description\": \"Error expanding 'fields' parameter. Cannot find matching fields for path ' nextPageToken'.\"\n          }\n        ]\n      }\n    ]\n  }\n}\n",
+  "timestamp": "20250811_101655",
+  "request_data": {
+    "textQuery": "coffee in Amsterdam",
+    "pageSize": 20
+  },
+  "request_headers": {
+    "Content-Type": "application/json",
+    "X-Goog-Api-Key": "***HIDDEN***",
+    "X-Goog-FieldMask": "places.displayName,places.formattedAddress,places.location,places.rating,places.userRatingCount,places.googleMapsLinks,places.primaryType,places.regularOpeningHours, nextPageToken"
+  }
+}
