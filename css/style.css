@@ -38,7 +38,7 @@
 .coffee-cup {
     width: 120px;
     height: 100px;
-    background: #8B4513;
+    background: #65451F;
     border-radius: 0 0 60px 60px;
     position: relative;
     margin: 0 auto;
@@ -52,7 +52,7 @@
 .coffee-handle {
     width: 30px;
     height: 40px;
-    border: 8px solid #8B4513;
+    border: 8px solid #65451F;
     border-left: none;
     border-radius: 0 25px 25px 0;
     position: absolute;
@@ -69,7 +69,7 @@
     bottom: 0; /* align with cup base */
     width: 12px;
     height: 20px; /* shorter and narrower to avoid visible rectangle */
-    background: #8B4513; /* same color as cup/handle */
+    background: #65451F; /* same color as cup/handle */
     border-radius: 0 6px 6px 0; /* rounded on right side to blend */
     box-shadow: none; /* remove inset shadow that looked like a rectangle */
     z-index: 1; /* sit underneath the cup so cup covers overlap */
