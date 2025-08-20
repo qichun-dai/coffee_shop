@@ -1,5 +1,252 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
 
+/* Loading Screen Styles */
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5f3f0 0%, #e8dcc6 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.8s ease-out, visibility 0.8s ease-out;
+}
+
+.loading-screen.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.main-content {
+    transition: opacity 0.8s ease-in;
+}
+
+.main-content.hidden {
+    opacity: 0;
+}
+
+/* Coffee Animation */
+.coffee-animation {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.coffee-cup {
+    width: 120px;
+    height: 100px;
+    background: #8B4513;
+    border-radius: 0 0 60px 60px;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    animation: cup-bounce 2s ease-in-out infinite;
+    z-index: 2; /* keep cup above small connector */
+}
+
+.coffee-liquid { display: none; }
+
+.coffee-handle {
+    width: 30px;
+    height: 40px;
+    border: 8px solid #8B4513;
+    border-left: none;
+    border-radius: 0 25px 25px 0;
+    position: absolute;
+    right: -25px;
+    top: 20px;
+    z-index: 3;
+}
+
+/* small solid connector so the handle visually attaches to the cup body */
+.coffee-handle::before {
+    content: '';
+    position: absolute;
+    left: -10px; /* overlap slightly inside the cup edge */
+    bottom: 0; /* align with cup base */
+    width: 12px;
+    height: 20px; /* shorter and narrower to avoid visible rectangle */
+    background: #8B4513; /* same color as cup/handle */
+    border-radius: 0 6px 6px 0; /* rounded on right side to blend */
+    box-shadow: none; /* remove inset shadow that looked like a rectangle */
+    z-index: 1; /* sit underneath the cup so cup covers overlap */
+}
+
+.coffee-cup::before,
+.coffee-cup::after { display: none; }
+
+.steam {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.steam-line {
+    width: 18px;
+    /* increased height so the steam graphic is visibly longer */
+    height: 100px;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    /* inline SVG: taller curved steam path (longer S-like curve) */
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 140'><path d='M6 130 C6 100,14 80,6 50 C6 30,14 20,6 10' stroke='%23ffffff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' fill='none' opacity='0.75' /></svg>");
+    position: absolute;
+    /* slightly slower, longer animation to match the increased visual length */
+    animation: steam-rise 4s ease-in-out infinite;
+}
+
+.steam-1 {
+    left: -20px;
+    animation-delay: 0.3s;
+}
+
+.steam-2 {
+    left: 0px;
+    animation-delay: 0s;
+}
+
+.steam-3 {
+    left: 20px;
+    animation-delay: 0.6s;
+}
+
+.loading-text {
+    font-family: 'Oleo Script', cursive;
+    font-size: 36px;
+    color: #65451F;
+    text-align: center;
+    animation: text-fade 2s ease-in-out infinite alternate;
+    margin-bottom: 20px;
+}
+
+.loading-progress {
+    width: 200px;
+    height: 4px;
+    background: rgba(101, 69, 31, 0.2);
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.loading-progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #65451F, #FF6B35);
+    border-radius: 2px;
+    animation: progress-fill 3s ease-in-out;
+    transform-origin: left;
+}
+
+.coffee-beans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.coffee-bean {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.8s ease-out;
+}
+
+.coffee-bean.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.bean-shape {
+    /* oval bean base tuned to match the icon */
+    width: 30px;
+    height: 24px;
+    background: linear-gradient(180deg, #65451F 0%, #65451F 100%);
+    border-radius: 50% / 60%;
+    position: relative;
+    transform: rotate(-40deg);
+    box-shadow: none;
+}
+
+.bean-shape::before {
+    /* subtle top highlight */
+    content: '';
+    position: absolute;
+    left: 6%;
+    top: 6%;
+    width: 88%;
+    height: 48%;
+    border-radius: 50% / 60%;
+    background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0));
+    transform: translateY(-6%);
+    pointer-events: none;
+}
+
+.bean-shape::after {
+    /* thin S-shaped seam drawn with inline SVG as a background image */
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 86%;
+    height: 66%;
+    transform: translate(-50%, -50%) rotate(6deg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    pointer-events: none;
+    /* SVG path: thin S curve centered horizontally */
+    /* smoother S curve: single smooth cubic and gentler control points */
+    /* control points moved further from baseline for a stronger, smoother S */
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 40'><path d='M6 20 C28 -6,72 46,94 20' stroke='%23ffffff' stroke-width='5' stroke-linecap='round' stroke-linejoin='round' fill='none' opacity='0.95' /></svg>");
+    mix-blend-mode: normal;
+}
+
+.bean-crack {
+    display: none;
+}
+
+/* Animations */
+@keyframes cup-bounce {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes liquid-wobble {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+@keyframes steam-rise {
+    0% {
+        opacity: 0;
+        transform: translateY(0px) scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(-15px) scale(1.2);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.8);
+    }
+}
+
+@keyframes text-fade {
+    0% { opacity: 0.7; }
+    100% { opacity: 1; }
+}
+
+@keyframes progress-fill {
+    0% { transform: scaleX(0); }
+    100% { transform: scaleX(1); }
+}
+
+/* Main Content Styles */
+
 h1{
 	font-family: 'Oleo Script', cursive;
 	font-size:50px;
@@ -137,4 +384,139 @@ footer{
 
 .center{
 	text-align: center;
+}
+
+/* Coffee Marker Styles */
+.coffee-marker {
+    text-align: center;
+    background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+    border-radius: 50%;
+    border: 2px solid #65451F;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffee-marker:hover {
+    transform: scale(1.1);
+}
+
+.coffee-icon-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffee-icon {
+    font-size: 60%;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    line-height: 1;
+}
+
+.star-rating {
+    color: #FF6B35;
+    font-weight: bold;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+/* Star Rating System */
+.star-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.star-item {
+    display: inline-block;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    line-height: 1;
+}
+
+.full-star {
+    color: #FFD700;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.empty-star {
+    color: #DDD;
+}
+
+.partial-star {
+    position: relative;
+    overflow: hidden;
+}
+
+.partial-star .star-bg {
+    color: #DDD;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.partial-star .star-fill {
+    color: #FFD700;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--fill-percentage);
+    height: 100%;
+    overflow: hidden;
+}
+
+.rating-number {
+    margin-left: 8px;
+    color: #666;
+    font-size: 12px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+/* Coffee Popup Styles */
+.coffee-popup h3 {
+    margin: 0 0 8px 0;
+    color: #65451F;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.coffee-popup .rating {
+    margin-bottom: 8px;
+}
+
+.coffee-popup .rating .star {
+    font-size: 14px;
+}
+
+.coffee-popup .rating .rating-number {
+    font-size: 11px;
+    margin-left: 6px;
+}
+
+.coffee-popup .address {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+
+.coffee-popup .type {
+    color: #888;
+    font-size: 11px;
+    text-transform: capitalize;
+}
+
+.coffee-popup {
+    max-width: 250px;
 }

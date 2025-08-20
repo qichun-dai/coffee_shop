@@ -4,17 +4,53 @@
         <title>Coffee Maps</title>
         <link rel="stylesheet" href="./css/style.css">
         <script src="https://unpkg.com/d3@7.8.5/dist/d3.min.js"></script>
-        <script src="./js/main.js"></script>
+        <!-- <script src="./js/main.js"></script> -->
+        <script src="./js/coffee_data.js"></script>
         
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     </head>
     <body>
-        <header>
-            <h1>Coffee Maps</h1>
-        </header>
-        
-        <div class="flex_container">
+        <!-- Loading Screen -->
+        <div id="loadingScreen" class="loading-screen">
+            <div class="coffee-animation">
+                <div class="coffee-cup">
+                    <div class="coffee-liquid"></div>
+                    <div class="coffee-handle"></div>
+                </div>
+                <div class="steam">
+                    <div class="steam-line steam-1"></div>
+                    <div class="steam-line steam-2"></div>
+                    <div class="steam-line steam-3"></div>
+                </div>
+            </div>
+            <div class="loading-text">enjoy the moment</div>
+            <div class="coffee-beans">
+                <div class="coffee-bean" id="bean1">
+                    <div class="bean-shape">
+                        <div class="bean-crack"></div>
+                    </div>
+                </div>
+                <div class="coffee-bean" id="bean2">
+                    <div class="bean-shape">
+                        <div class="bean-crack"></div>
+                    </div>
+                </div>
+                <div class="coffee-bean" id="bean3">
+                    <div class="bean-shape">
+                        <div class="bean-crack"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div id="mainContent" class="main-content hidden">
+            <header>
+                <h1>Coffee Maps</h1>
+            </header>
+            
+            <div class="flex_container">
             <div class="flex_row">
                 <div class="flex_item locate">
                     <div id="searchContainer">
@@ -41,15 +77,14 @@
                 <div class="flex_item table"></div>
             </div>
         </div>
-    
-        
+
         <footer>
             <div class="footer_container">
                 <div class="footer_item left">
                     <p>data source: Google Maps</p>
                 </div>
                 <div class="footer_item center">
-                    <p><a href="qichundai.com">read the story behind this viz</a></p>
+                    <p><a href="http://www.qichundai.com">read the story behind this viz</a></p>
                 </div>
                 <div class="footer_item right">
                     <p>designed by: <a href="https://www.qichundai.com">Qichun</a></p>
@@ -57,6 +92,7 @@
 
             </div>
         </footer>
+        </div>
 
         <script src="./js/create_map.js"></script>
     </body>

@@ -10,9 +10,11 @@ import math
 
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 # csv file location
-CSV_LOCATION = os.path.join(".","data","coffee_shops_processed_20250811_114420.csv")
-# CSV_LOCATION = os.path.join(".","data","coffee_shops_stars_20250804_153340.csv")
+CSV_LOCATION = os.path.join(".","data","coffee_shops_processed_20250813_114829.csv")
+
 CSV_LOCATION_NEW = os.path.join(".","data",f"coffee_shops_stars_{timestamp}.csv")
+
+CSV_LOCATION_NEW2 = os.path.join(".","data",f"coffee_shops_stars2_{timestamp}.csv")
 
 # Target all aria-label elements in the specific table
 # rating and reviews xpath, the xpath doesn't work all the time, so I switched to CSS selector
@@ -260,31 +262,34 @@ def collect_all_star_data(coffees_df, driver):
 def sort_beyasian(coffees):
     beyasian_rating = []
     for i, coffee in coffees.iterrows():
-
-    #  https://www.evanmiller.org/ranking-items-with-star-ratings.html
-        N = coffee["userRatingCount"]
-        K = 5
-        z = 1.65
-        nk = [coffee["5"],coffee["4"],coffee["3"],coffee["2"],coffee["1"]]
-   
-        sk = range(K,0,-1)
-        sk2 = [each**2 for each in sk]
-        def f(sk,nk):
-            return sum(sk*(nk+1) for sk, nk in zip(sk,nk))/(N+K)
-        fsum = f(sk,nk)
-        beyasian_rating.append(fsum -z * math.sqrt((f(sk2,nk)-fsum**2)/(N+K+1)))
+        try:
+            #  https://www.evanmiller.org/ranking-items-with-star-ratings.html
+            N = coffee["userRatingCount"]
+            K = 5
+            z = 1.65
+            nk = [coffee["5"],coffee["4"],coffee["3"],coffee["2"],coffee["1"]]
+    
+            sk = range(K,0,-1)
+            sk2 = [each**2 for each in sk]
+            def f(sk,nk):
+                return sum(sk*(nk+1) for sk, nk in zip(sk,nk))/(N+K)
+            fsum = f(sk,nk)
+            beyasian_rating.append(fsum -z * math.sqrt((f(sk2,nk)-fsum**2)/(N+K+1)))
+        except Exception as e:
+            print(e)
+            beyasian_rating.append("")
     return beyasian_rating
         
         
     
-    
-
 driver = reject_cookies()
 coffees = collect_all_star_data(coffees, driver)
 driver.close()
+
+coffees.to_csv(CSV_LOCATION_NEW, index=False, encoding='utf-8')
 
 # running the Bayesian calculation on existing data
 adjustedRating = sort_beyasian(coffees)
 coffees["adjustedRating"] = adjustedRating
 
-coffees.to_csv(CSV_LOCATION_NEW, index=False, encoding='utf-8')
+coffees.to_csv(CSV_LOCATION_NEW2, index=False, encoding='utf-8')
