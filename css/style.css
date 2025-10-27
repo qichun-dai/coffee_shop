@@ -326,6 +326,16 @@ footer{
 	top: 50%;
 	transform: translateY(-50%);
 	border-radius: 0 4px 4px 0;
+	transition: opacity 0.2s ease;
+}
+
+#locateButton:hover {
+	opacity: 0.8;
+}
+
+#locateButton:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
 }
 
 .filter{
@@ -519,4 +529,54 @@ footer{
 
 .coffee-popup {
     max-width: 250px;
+}
+
+/* Search result marker animation */
+.search-location-marker {
+    animation: pulse-search 2s infinite;
+}
+
+@keyframes pulse-search {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Table row highlighting */
+.highlighted-row {
+    background-color: #FFE4B5 !important;
+    box-shadow: 0 0 10px rgba(255, 107, 53, 0.3);
+    transition: all 0.3s ease;
+}
+
+.highlighted-row:hover {
+    background-color: #FFE4B5 !important;
+}
+
+/* Search Container Styling */
+#searchContainer {
+	position: relative;
+	display: inline-block;
+	width: 50%;
+	height: 40px;
+	
+}
+
+#locationInput {
+	padding: 10px;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 100%;
+	box-sizing: border-box;
+	
 }

@@ -18,8 +18,8 @@ else:
 
 URL = "https://places.googleapis.com/v1/places:searchText"
 QUERY = "coffee in "
-NEIGHBORHOODS = ["Amsterdam", "Amsterdam West", "Amsterdam Jordaan", "Amsterdam De Pijp",
-                 "Amsterdam Oost", "Amsterdam Zuid", "Amsterdam Noord", "Amsterdam Centraal"]
+NEIGHBORHOODS = ["Amsterdam Centrum", "Amsterdam Zuid", "Amsterdam Oost", "Amsterdam Zuidoost",
+                 "Amsterdam Oost", "Amsterdam West", "Amsterdam Noord", "Amsterdam Nieuw-west", "Amsterdam"]
 
 # Set up headers with API key
 headers = {
@@ -68,6 +68,11 @@ for each in NEIGHBORHOODS:
         "pageSize": 20
     }
     results, status_code= fetchMultiplePages(URL = URL, headers = headers, json = data, n = 4)
+    
+    # Add neighborhood field to each result
+    for place in results:
+        place['neighborhood'] = each
+    
     all_results.extend(results)
 
 print(len(all_results))

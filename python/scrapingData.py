@@ -10,11 +10,11 @@ import math
 
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 # csv file location
-CSV_LOCATION = os.path.join(".","data","coffee_shops_processed_20250813_114829.csv")
+CSV_LOCATION = os.path.join(".","data","coffee_shops_processed_20251021_163117.csv")
 
 CSV_LOCATION_NEW = os.path.join(".","data",f"coffee_shops_stars_{timestamp}.csv")
 
-CSV_LOCATION_NEW2 = os.path.join(".","data",f"coffee_shops_stars2_{timestamp}.csv")
+# CSV_LOCATION_NEW2 = os.path.join(".","data",f"coffee_shops_stars2_{timestamp}.csv")
 
 # Target all aria-label elements in the specific table
 # rating and reviews xpath, the xpath doesn't work all the time, so I switched to CSS selector
@@ -292,4 +292,4 @@ coffees.to_csv(CSV_LOCATION_NEW, index=False, encoding='utf-8')
 adjustedRating = sort_beyasian(coffees)
 coffees["adjustedRating"] = adjustedRating
 
-coffees.to_csv(CSV_LOCATION_NEW2, index=False, encoding='utf-8')
+coffees.to_csv(CSV_LOCATION_NEW, index=False, encoding='utf-8')

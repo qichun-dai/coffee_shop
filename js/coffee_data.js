@@ -9,7 +9,7 @@ class CoffeeShopLoader {
     async loadCoffeeData() {
         try {
             console.log('Loading coffee data...');
-            const response = await fetch('./data/coffee_shops_stars2_20250813_174708.csv');
+            const response = await fetch('./data/coffee_shops_stars_20251021_163739.csv');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
@@ -155,7 +155,7 @@ class CoffeeShopLoader {
         const initialZoom = map.getZoom();
         let coffeeIcon = createCoffeeIcon(initialZoom);
 
-        this.coffeeShops.forEach(shop => {
+        this.coffeeShops.forEach((shop, shopIndex) => {
             
             const marker = L.marker([shop.latitude, shop.longitude], {
                 icon: coffeeIcon
@@ -170,6 +170,22 @@ class CoffeeShopLoader {
                 </div>
             `;
             marker.bindPopup(popupContent);
+            
+            // Add click event using multiple approaches to ensure it works
+            marker.on('click', (e) => {
+                console.log('Marker clicked for:', shop.name);
+                this.scrollToTableRow(shop);
+            });
+            
+            // Also try popupopen event as backup
+            marker.on('popupopen', (e) => {
+                console.log('Popup opened for:', shop.name);
+                this.scrollToTableRow(shop);
+            });
+            
+            // Store shop reference on marker for debugging
+            marker.shopData = shop;
+            
             marker.addTo(map);
             this.markers.push(marker);
         });
@@ -188,6 +204,111 @@ class CoffeeShopLoader {
             const group = new L.featureGroup(this.markers);
             map.fitBounds(group.getBounds().pad(0.05)); // Reduced padding for better fit
         }
+        
+        // Add global debug function for testing
+        window.testScrollToRow = () => {
+            if (this.coffeeShops.length > 0) {
+                console.log('Testing scroll with first shop:', this.coffeeShops[0].name);
+                this.scrollToTableRow(this.coffeeShops[0]);
+            }
+        };
+        
+        console.log('Markers created. Test with: window.testScrollToRow()');
+    }
+
+    // Function to scroll to and highlight table row for a specific shop
+    scrollToTableRow(targetShop) {
+        console.log('Attempting to scroll to shop:', targetShop.name);
+        
+        // Wait a bit for the DOM to be ready
+        setTimeout(() => {
+            const tableContainer = document.querySelector('.table-container');
+            const table = document.querySelector('.coffee-table');
+            const tableRows = document.querySelectorAll('.coffee-table tbody tr');
+            
+            console.log('Table container found:', !!tableContainer);
+            console.log('Table found:', !!table);
+            console.log('Number of table rows found:', tableRows.length);
+            
+            if (!tableContainer || !tableRows.length) {
+                console.log('Table or rows not found, retrying...');
+                return;
+            }
+            
+            // Clear any existing highlights
+            tableRows.forEach(row => {
+                row.classList.remove('highlighted-row');
+                row.style.backgroundColor = '';
+            });
+            
+            // Find the matching row by comparing shop names
+            let targetRow = null;
+            let rowIndex = -1;
+            
+            tableRows.forEach((row, index) => {
+                const nameLink = row.querySelector('td:first-child a');
+                if (nameLink) {
+                    const rowShopName = nameLink.textContent.trim();
+                    const targetShopName = targetShop.name.trim();
+                    console.log(`Comparing row ${index}: "${rowShopName}" vs "${targetShopName}"`);
+                    
+                    if (rowShopName === targetShopName) {
+                        targetRow = row;
+                        rowIndex = index;
+                        console.log('Found matching row at index:', index);
+                    }
+                }
+            });
+            
+            if (targetRow) {
+                console.log('Highlighting and scrolling to row');
+                
+                // Add highlight class and inline style for immediate effect
+                targetRow.classList.add('highlighted-row');
+                targetRow.style.backgroundColor = '#FFE4B5';
+                targetRow.style.boxShadow = '0 0 10px rgba(255, 107, 53, 0.3)';
+                
+                // Calculate scroll position
+                const containerRect = tableContainer.getBoundingClientRect();
+                const rowRect = targetRow.getBoundingClientRect();
+                const scrollTop = tableContainer.scrollTop;
+                const containerTop = containerRect.top;
+                const rowTop = rowRect.top;
+                
+                // Calculate target scroll position to center the row
+                const targetScrollTop = scrollTop + rowTop - containerTop - (containerRect.height / 2) + (rowRect.height / 2);
+                
+                console.log('Scroll calculation:', {
+                    scrollTop,
+                    containerTop,
+                    rowTop,
+                    targetScrollTop
+                });
+                
+                // Smooth scroll to the target row
+                tableContainer.scrollTo({
+                    top: Math.max(0, targetScrollTop),
+                    behavior: 'smooth'
+                });
+                
+                // Remove highlight after 4 seconds
+                setTimeout(() => {
+                    targetRow.classList.remove('highlighted-row');
+                    targetRow.style.backgroundColor = '';
+                    targetRow.style.boxShadow = '';
+                    console.log('Highlight removed');
+                }, 4000);
+            } else {
+                console.log('No matching row found for shop:', targetShop.name);
+                console.log('Available shop names in table:');
+                tableRows.forEach((row, index) => {
+                    const nameLink = row.querySelector('td:first-child a');
+                    if (nameLink) {
+                        console.log(`  ${index}: "${nameLink.textContent.trim()}"`);
+                    }
+                });
+            }
+        }, 100); // Small delay to ensure DOM is ready
     }
 
     clearMarkers() {
@@ -240,6 +361,22 @@ class CoffeeShopLoader {
             `;
             
             marker.bindPopup(popupContent);
+            
+            // Add click event using multiple approaches
+            marker.on('click', (e) => {
+                console.log('Filtered marker clicked for:', shop.name);
+                this.scrollToTableRow(shop);
+            });
+            
+            // Also try popupopen event as backup
+            marker.on('popupopen', (e) => {
+                console.log('Filtered popup opened for:', shop.name);
+                this.scrollToTableRow(shop);
+            });
+            
+            // Store shop reference on marker
+            marker.shopData = shop;
+            
             marker.addTo(this.map);
             this.markers.push(marker);
         });

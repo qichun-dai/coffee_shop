@@ -4,14 +4,13 @@ import os
 from datetime import datetime
 from dateutil import tz
 
-coffee_file = os.path.join(".", "data", "coffee_shops_response_20250813_114243.json")
+coffee_file = os.path.join(".", "data", "coffee_shops_response_20251021_162227.json")
 
 with open(coffee_file, mode="r", encoding='utf-8') as file:
     coffee_raw = json.load(file)
     
 print(coffee_raw["places"][1])
 
-# Method 2: Collect all data first, then create DataFrame (most efficient)
 data_list = []
 
 for coffee in coffee_raw["places"]:
@@ -35,6 +34,7 @@ for coffee in coffee_raw["places"]:
     latitude = safe_get(coffee, "location", "latitude", default=0.0)
     longitude = safe_get(coffee, "location", "longitude", default=0.0)
     nextCloseTime = safe_get(coffee,"regularOpeningHours","nextCloseTime", default="")
+    neighborhood = safe_get(coffee,"neighborhood", default="")
     
     # Debug: Print if primaryType is missing or unusual
     if primaryType == "unknown":
@@ -67,7 +67,8 @@ for coffee in coffee_raw["places"]:
         "latitude": latitude,
         "longitude": longitude,
         "weekdayDescriptions": weekday_clean,
-        "nextCloseTime": nextCloseTime
+        "nextCloseTime": nextCloseTime,
+        "neighborhood": neighborhood,
     })
     
  
@@ -102,7 +103,10 @@ coffee_final["nextCloseHour"] = coffee_final["nextCloseTime"].apply(get_local_ho
 coffee_final["trueCoffee"] =  (
     ((coffee_final["nextCloseHour"] <= 23) & (coffee_final["nextCloseHour"] >= 5)) | coffee_final["nextCloseHour"].isna()
 ).astype(int)
-coffee_final = coffee_final.drop_duplicates()
+
+# Drop duplicates ignoring the neighborhood column, keeping the first occurrence
+duplicate_columns = [col for col in coffee_final.columns if col != 'neighborhood']
+coffee_final = coffee_final.drop_duplicates(subset=duplicate_columns, keep='first')
 
 
 print(f"DataFrame shape: {coffee_final.shape}")
