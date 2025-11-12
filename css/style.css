@@ -399,9 +399,9 @@ footer{
 /* Coffee Marker Styles */
 .coffee-marker {
     text-align: center;
-    background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+    background: rgb(101, 69, 31, 0.9);
     border-radius: 50%;
-    border: 2px solid #65451F;
+    border: 1px solid whitesmoke;
     box-shadow: 0 2px 6px rgba(0,0,0,0.3);
     transition: transform 0.2s ease;
     display: flex;

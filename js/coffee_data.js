@@ -38,7 +38,8 @@ class CoffeeShopLoader {
             const placeUriKey = headers.find(h => h.includes('placeUri'));
             const typeKey = headers.find(h => h.includes('primaryType'));
             const adjustedRatingKey = headers.find(h => h.includes('adjustedRating'));
-            console.log('Column keys:', { nameKey, ratingKey, latKey, lngKey, addressKey, userRatingCountKey, typeKey, adjustedRatingKey, trueCoffeeKey, placeUriKey });
+            const neighborhoodKey = headers.find(h => h.includes('neighborhood'));
+            console.log('Column keys:', { nameKey, ratingKey, latKey, lngKey, addressKey, userRatingCountKey, typeKey, adjustedRatingKey, trueCoffeeKey, placeUriKey, neighborhoodKey });
 
             let skippedRows = 0;
             this.coffeeShops = [];
@@ -59,7 +60,8 @@ class CoffeeShopLoader {
                         type: (row[typeKey] || '').replace(/"/g, '') || 'coffee_shop',
                         trueCoffee: trueCoffeeValue,
                         placeUri: (row[placeUriKey] || '').replace(/"/g, '') || 'Unknown',
-                        adjustedRating: parseFloat((row[adjustedRatingKey] || '').replace(/"/g, '').trim()) || 0
+                        adjustedRating: parseFloat((row[adjustedRatingKey] || '').replace(/"/g, '').trim()) || 0,
+                        neighborhood: (row[neighborhoodKey] || '').replace(/"/g, '') || 'Unknown'
                     });
                 } 
             });
@@ -132,11 +134,11 @@ class CoffeeShopLoader {
         
         // Function to get icon size based on zoom level
         const getIconSize = (zoomLevel) => {
-            if (zoomLevel <= 10) return 15;
-            if (zoomLevel <= 12) return 20;
-            if (zoomLevel <= 14) return 25;
-            if (zoomLevel <= 16) return 30;
-            return 35;
+            if (zoomLevel <= 10) return 10;
+            if (zoomLevel <= 12) return 12;
+            if (zoomLevel <= 14) return 1            kill PID6;
+            if (zoomLevel <= 16) return 20;
+            return 22;
         };
 
         // Function to create coffee icon with dynamic size
@@ -144,7 +146,7 @@ class CoffeeShopLoader {
             const size = getIconSize(zoomLevel);
             return L.divIcon({
                 className: 'coffee-marker',
-                html: '<div class="coffee-icon-container"><span class="coffee-icon">C</span></div>',
+                html: '<div class="coffee-icon-container"></div>',
                 iconSize: [size, size],
                 iconAnchor: [size/2, size/2],
                 popupAnchor: [0, -size/2]
@@ -167,6 +169,7 @@ class CoffeeShopLoader {
                     <div class="rating">${this.createStarRating(shop.rating)}</div>
                     <div class="address">${shop.address}</div>
                     <div class="type">${shop.type.replace('_', ' ')}</div>
+                    <div class="neighborhood" style="color: #888; font-size: 11px; margin-top: 5px;">${shop.neighborhood}</div>
                 </div>
             `;
             marker.bindPopup(popupContent);
@@ -324,11 +327,11 @@ class CoffeeShopLoader {
         
         // Function to get icon size based on zoom level
         const getIconSize = (zoomLevel) => {
-            if (zoomLevel <= 10) return 15;
-            if (zoomLevel <= 12) return 20;
-            if (zoomLevel <= 14) return 25;
-            if (zoomLevel <= 16) return 30;
-            return 35;
+            if (zoomLevel <= 10) return 12;
+            if (zoomLevel <= 12) return 16;
+            if (zoomLevel <= 14) return 20;
+            if (zoomLevel <= 16) return 24;
+            return 28;
         };
 
         // Function to create coffee icon with dynamic size
@@ -336,7 +339,7 @@ class CoffeeShopLoader {
             const size = getIconSize(zoomLevel);
             return L.divIcon({
                 className: 'coffee-marker',
-                html: '<div class="coffee-icon-container"><span class="coffee-icon">C</span></div>',
+                html: '<div class="coffee-icon-container"></div>',
                 iconSize: [size, size],
                 iconAnchor: [size/2, size/2],
                 popupAnchor: [0, -size/2]
@@ -392,17 +395,19 @@ class CoffeeShopLoader {
             });
         });
     }
-        filterByAdjustedRating(minRating) {
+        filterByNeighborhood(neighborhood) {
             this.clearMarkers();
-            const filtered = this.coffeeShops.filter(shop => shop.adjustedRating >= minRating);
-
+            const filtered = neighborhood ? 
+                this.coffeeShops.filter(shop => shop.neighborhood === neighborhood) : 
+                this.coffeeShops;
+            
             // Function to get icon size based on zoom level
             const getIconSize = (zoomLevel) => {
-                if (zoomLevel <= 10) return 15;
-                if (zoomLevel <= 12) return 20;
-                if (zoomLevel <= 14) return 25;
-                if (zoomLevel <= 16) return 30;
-                return 35;
+                if (zoomLevel <= 10) return 12;
+                if (zoomLevel <= 12) return 16;
+                if (zoomLevel <= 14) return 20;
+                if (zoomLevel <= 16) return 24;
+                return 28;
             };
 
             // Function to create coffee icon with dynamic size
@@ -410,7 +415,91 @@ class CoffeeShopLoader {
                 const size = getIconSize(zoomLevel);
                 return L.divIcon({
                     className: 'coffee-marker',
-                    html: '<div class="coffee-icon-container"><span class="coffee-icon">C</span></div>',
+                    html: '<div class="coffee-icon-container"></div>',
+                    iconSize: [size, size],
+                    iconAnchor: [size/2, size/2],
+                    popupAnchor: [0, -size/2]
+                });
+            };
+
+            const currentZoom = this.map.getZoom();
+            const coffeeIcon = createCoffeeIcon(currentZoom);
+
+            filtered.forEach(shop => {
+                const marker = L.marker([shop.latitude, shop.longitude], {
+                    icon: coffeeIcon
+                });
+
+                const popupContent = `
+                    <div class="coffee-popup">
+                        <h3>${shop.name}</h3>
+                        <div class="rating">${this.createStarRating(shop.adjustedRating)}</div>
+                        <div class="address">${shop.address}</div>
+                        <div class="type">${shop.type.replace('_', ' ')}</div>
+                        <div class="neighborhood" style="color: #888; font-size: 11px; margin-top: 5px;">${shop.neighborhood}</div>
+                    </div>
+                `;
+
+                marker.bindPopup(popupContent);
+                
+                // Add click event using multiple approaches
+                marker.on('click', (e) => {
+                    console.log('Neighborhood filtered marker clicked for:', shop.name);
+                    this.scrollToTableRow(shop);
+                });
+                
+                // Also try popupopen event as backup
+                marker.on('popupopen', (e) => {
+                    console.log('Neighborhood filtered popup opened for:', shop.name);
+                    this.scrollToTableRow(shop);
+                });
+                
+                // Store shop reference on marker
+                marker.shopData = shop;
+
+                marker.addTo(this.map);
+                this.markers.push(marker);
+            });
+
+            // Update zoom event listener for filtered markers
+            this.map.off('zoomend'); // Remove previous listener
+            this.map.on('zoomend', () => {
+                const newZoom = this.map.getZoom();
+                const newIcon = createCoffeeIcon(newZoom);
+
+                this.markers.forEach(marker => {
+                    marker.setIcon(newIcon);
+                });
+            });
+
+            // Zoom to fit the filtered markers
+            if (this.markers.length > 0) {
+                const group = new L.featureGroup(this.markers);
+                this.map.fitBounds(group.getBounds().pad(0.1)); // Add padding around the bounds
+            }
+            
+            return filtered;
+        }
+
+        filterByAdjustedRating(minRating) {
+            this.clearMarkers();
+            const filtered = this.coffeeShops.filter(shop => shop.adjustedRating >= minRating);
+
+            // Function to get icon size based on zoom level
+            const getIconSize = (zoomLevel) => {
+                if (zoomLevel <= 10) return 12;
+                if (zoomLevel <= 12) return 16;
+                if (zoomLevel <= 14) return 20;
+                if (zoomLevel <= 16) return 24;
+                return 28;
+            };
+
+            // Function to create coffee icon with dynamic size
+            const createCoffeeIcon = (zoomLevel) => {
+                const size = getIconSize(zoomLevel);
+                return L.divIcon({
+                    className: 'coffee-marker',
+                    html: '<div class="coffee-icon-container"></div>',
                     iconSize: [size, size],
                     iconAnchor: [size/2, size/2],
                     popupAnchor: [0, -size/2]
@@ -481,6 +570,7 @@ class LoadingController {
         
         // Add rating filter and table
         this.addRatingFilter(coffeeLoader);
+        this.addNeighborhoodFilter(coffeeLoader);
         this.createCoffeeTable(coffeeLoader);
         
         return coffeeLoader;
@@ -525,6 +615,33 @@ class LoadingController {
         });
         
         filterDiv.appendChild(ratingFilter);
+    }
+
+    addNeighborhoodFilter(coffeeLoader) {
+        // Get the existing location filter dropdown from HTML
+        const locationFilter = document.getElementById('locationFilter');
+        
+        if (locationFilter) {
+            locationFilter.addEventListener('change', (e) => {
+                const selectedNeighborhood = e.target.value;
+                console.log('Neighborhood filter changed to:', selectedNeighborhood);
+                
+                if (selectedNeighborhood === '') {
+                    // Show all coffee shops and zoom to fit all
+                    coffeeLoader.addMarkersToMap(window.map);
+                    this.updateTableForNeighborhood(coffeeLoader, '');
+                } else {
+                    // Filter by selected neighborhood and zoom to fit the filtered area
+                    const filteredShops = coffeeLoader.filterByNeighborhood(selectedNeighborhood);
+                    this.updateTableForNeighborhood(coffeeLoader, selectedNeighborhood);
+                    console.log(`Filtered to ${filteredShops.length} shops in ${selectedNeighborhood}`);
+                }
+            });
+            
+            console.log('Neighborhood filter event listener added');
+        } else {
+            console.error('locationFilter element not found');
+        }
     }
 
     createCoffeeTable(coffeeLoader) {
@@ -672,6 +789,65 @@ class LoadingController {
         // Store reference for updates
         this.tableContainer = tableContainer;
         this.coffeeLoader = coffeeLoader;
+    }
+
+    updateTableForNeighborhood(coffeeLoader, neighborhood = '') {
+        const tbody = this.tableContainer.querySelector('tbody');
+        tbody.innerHTML = '';
+        
+        // Filter and sort coffee shops by neighborhood
+        let filteredShops = coffeeLoader.coffeeShops;
+        if (neighborhood) {
+            filteredShops = filteredShops.filter(shop => shop.neighborhood === neighborhood);
+        }
+        filteredShops = filteredShops.sort((a, b) => b.adjustedRating - a.adjustedRating);
+        
+        // Add rows for all filtered coffee shops
+        filteredShops.forEach((shop, index) => {
+            const row = document.createElement('tr');
+            row.style.cursor = 'pointer';
+            row.style.borderBottom = '1px solid #eee';
+            // Name as clickable URL
+            const nameCell = `<a href="${shop.placeUri}" target="_blank" style="color: #65451F; text-decoration: underline;">${shop.name}</a>`;
+            // User rating (raw number)
+            const userRatingCell = (shop.rating !== undefined && shop.rating !== null && !isNaN(shop.rating)) ? shop.rating : '';
+            // User rating count
+            const userRatingCountCell = `${shop.ratingCount || ''}`;
+            // Adjusted rating with stars and two decimals
+            const adjustedRatingCell = coffeeLoader.createStarRating(shop.adjustedRating);
+            row.innerHTML = `
+                <td style="padding: 8px; font-size: 12px;">${nameCell}</td>
+                <td style="padding: 8px; text-align: center; font-size: 14px;">${userRatingCell}</td>
+                <td style="padding: 8px; text-align: center; font-size: 14px;">${userRatingCountCell}</td>
+                <td style="padding: 8px; text-align: center; font-size: 14px;">${adjustedRatingCell}</td>
+            `;
+            
+            // Add hover effect
+            row.addEventListener('mouseenter', () => {
+                row.style.backgroundColor = '#f5f5f5';
+            });
+            row.addEventListener('mouseleave', () => {
+                row.style.backgroundColor = '';
+            });
+            
+            // Add click to zoom to location on map
+            row.addEventListener('click', () => {
+                if (window.map) {
+                    window.map.setView([shop.latitude, shop.longitude], 16);
+                    // Find and open the popup for this shop
+                    coffeeLoader.markers.forEach(marker => {
+                        const markerLatLng = marker.getLatLng();
+                        if (Math.abs(markerLatLng.lat - shop.latitude) < 0.0001 && 
+                            Math.abs(markerLatLng.lng - shop.longitude) < 0.0001) {
+                            marker.openPopup();
+                        }
+                    });
+                }
+            });
+            tbody.appendChild(row);
+        });
+        
+        console.log(`Table updated with ${filteredShops.length} shops for neighborhood: ${neighborhood || 'All'}`);
     }
 
     updateTable(coffeeLoader, minRating = 0) {
