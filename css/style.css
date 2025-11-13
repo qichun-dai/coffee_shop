@@ -557,6 +557,51 @@ footer{
     max-width: 250px;
 }
 
+/* Coffee Table Styles */
+.coffee-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.coffee-table th {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+}
+
+.coffee-table td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Column width specifications */
+.coffee-table th:nth-child(1),
+.coffee-table td:nth-child(1) {
+    width: 35%;
+    max-width: 0;
+}
+
+.coffee-table th:nth-child(2),
+.coffee-table td:nth-child(2) {
+    width: 20%;
+    max-width: 0;
+    white-space: nowrap;
+}
+
+.coffee-table th:nth-child(3),
+.coffee-table td:nth-child(3) {
+    width: 20%;
+    max-width: 0;
+    white-space: nowrap;
+}
+
+.coffee-table th:nth-child(4),
+.coffee-table td:nth-child(4) {
+    width: 25%;
+    max-width: 0;
+}
+
 /* Search result marker animation */
 .search-location-marker {
     animation: pulse-search 2s infinite;

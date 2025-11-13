@@ -205,7 +205,7 @@ class CoffeeShopLoader {
         // Fit map to show all markers with padding
         if (this.markers.length > 0) {
             const group = new L.featureGroup(this.markers);
-            map.fitBounds(group.getBounds().pad(0.05)); // Reduced padding for better fit
+            map.fitBounds(group.getBounds().pad(0.1)); // Better padding for optimal icon visibility
         }
         
         // Add global debug function for testing
@@ -747,9 +747,9 @@ class LoadingController {
                 // Adjusted rating with stars and two decimals
                 const adjustedRatingCell = coffeeLoader.createStarRating(shop.adjustedRating);
                 row.innerHTML = `
-                    <td style="padding: 8px; font-size: 12px;">${nameCell}</td>
-                    <td style="padding: 8px; text-align: center; font-size: 14px;">${userRatingCell}</td>
-                    <td style="padding: 8px; text-align: center; font-size: 14px;">${userRatingCountCell}</td>
+                    <td style="padding: 8px; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${nameCell}</td>
+                    <td style="padding: 8px; text-align: center; font-size: 14px; white-space: nowrap;">${userRatingCell}</td>
+                    <td style="padding: 8px; text-align: center; font-size: 14px; white-space: nowrap;">${userRatingCountCell}</td>
                     <td style="padding: 8px; text-align: center; font-size: 14px;">${adjustedRatingCell}</td>
                 `;
                 // Add hover effect
@@ -818,9 +818,9 @@ class LoadingController {
             // Adjusted rating with stars and two decimals
             const adjustedRatingCell = coffeeLoader.createStarRating(shop.adjustedRating);
             row.innerHTML = `
-                <td style="padding: 8px; font-size: 12px;">${nameCell}</td>
-                <td style="padding: 8px; text-align: center; font-size: 14px;">${userRatingCell}</td>
-                <td style="padding: 8px; text-align: center; font-size: 14px;">${userRatingCountCell}</td>
+                <td style="padding: 8px; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${nameCell}</td>
+                <td style="padding: 8px; text-align: center; font-size: 14px; white-space: nowrap;">${userRatingCell}</td>
+                <td style="padding: 8px; text-align: center; font-size: 14px; white-space: nowrap;">${userRatingCountCell}</td>
                 <td style="padding: 8px; text-align: center; font-size: 14px;">${adjustedRatingCell}</td>
             `;
             

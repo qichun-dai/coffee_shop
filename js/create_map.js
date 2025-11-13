@@ -1,7 +1,7 @@
 // Initialize map - will be called after loading screen
 function initializeMap() {
     if (document.getElementById('map')) {
-        var map = L.map('map').setView([52.3676, 4.9041], 10); // Reduced initial zoom for better auto-fit
+        var map = L.map('map').setView([52.3676, 4.9041], 14); // Adjusted zoom for better icon visibility
 
         L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
