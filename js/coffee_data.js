@@ -394,6 +394,12 @@ class CoffeeShopLoader {
                 marker.setIcon(newIcon);
             });
         });
+
+        // Fit map to show all filtered markers
+        if (this.markers.length > 0) {
+            const group = new L.featureGroup(this.markers);
+            this.map.fitBounds(group.getBounds().pad(0.1)); // Add padding around the bounds
+        }
     }
         filterByNeighborhood(neighborhood) {
             this.clearMarkers();
@@ -538,6 +544,12 @@ class CoffeeShopLoader {
                     marker.setIcon(newIcon);
                 });
             });
+
+            // Fit map to show all filtered markers
+            if (this.markers.length > 0) {
+                const group = new L.featureGroup(this.markers);
+                this.map.fitBounds(group.getBounds().pad(0.1)); // Add padding around the bounds
+            }
         }
 
 
