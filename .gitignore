@@ -51,3 +51,4 @@ rsconnect/
 
 # secret key
 *secret.json
+.env
