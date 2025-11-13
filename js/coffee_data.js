@@ -49,7 +49,7 @@ class CoffeeShopLoader {
                 const trueCoffeeValue = (row[trueCoffeeKey] || '').replace(/"/g, '').trim();
                 const ratingCountValue = parseInt(row[userRatingCountKey], 10);
                 const adjustedRatingValue = parseFloat((row[adjustedRatingKey] || '').replace(/"/g, '').trim()) || 0;
-                if (!isNaN(lat) && !isNaN(lng) && trueCoffeeValue === '1' && ratingCountValue >= 50 && adjustedRatingValue > 4.0) {
+                if (!isNaN(lat) && !isNaN(lng) && trueCoffeeValue === '1' && ratingCountValue > 100 && adjustedRatingValue > 4.0) {
                     this.coffeeShops.push({
                         name: (row[nameKey] || '').replace(/"/g, '') || 'Unknown',
                         rating: parseFloat(row[ratingKey]) || 0,
@@ -136,7 +136,7 @@ class CoffeeShopLoader {
         const getIconSize = (zoomLevel) => {
             if (zoomLevel <= 10) return 10;
             if (zoomLevel <= 12) return 12;
-            if (zoomLevel <= 14) return 1            kill PID6;
+            if (zoomLevel <= 14) return 16;
             if (zoomLevel <= 16) return 20;
             return 22;
         };
@@ -539,6 +539,8 @@ class CoffeeShopLoader {
                 });
             });
         }
+
+
 }
 
 // Loading screen controller
@@ -936,8 +938,21 @@ class LoadingController {
     }
 }
 
-// Initialize when DOM is loaded
+// Export classes and functions for use in main.js
+if (typeof module !== 'undefined' && module.exports) {
+    // Node.js environment
+    module.exports = { CoffeeShopLoader, LoadingController };
+} else {
+    // Browser environment - attach to window
+    window.CoffeeShopLoader = CoffeeShopLoader;
+    window.LoadingController = LoadingController;
+}
+
+// Initialize when DOM is loaded (fallback for direct usage)
 document.addEventListener('DOMContentLoaded', () => {
-    const loadingController = new LoadingController();
-    loadingController.initializeApp();
+    // Only initialize if main.js hasn't already done it
+    if (!window.coffeeMapApp) {
+        const loadingController = new LoadingController();
+        loadingController.initializeApp();
+    }
 });

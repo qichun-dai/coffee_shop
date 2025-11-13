@@ -227,33 +227,6 @@ function updateButtonAppearance() {
     }
 }
 
-// Wait for main content to be visible before initializing map
-document.addEventListener('DOMContentLoaded', () => {
-    // Wait a bit for the loading screen to potentially finish
-    setTimeout(() => {
-        if (!document.getElementById('loadingScreen').classList.contains('hide')) {
-            // If loading screen is still visible, wait for it to hide
-            const observer = new MutationObserver((mutations) => {
-                mutations.forEach((mutation) => {
-                    if (mutation.target.classList.contains('hide')) {
-                        initializeMap();
-                        setupLocateButton();
-                        observer.disconnect();
-                    }
-                });
-            });
-            observer.observe(document.getElementById('loadingScreen'), {
-                attributes: true,
-                attributeFilter: ['class']
-            });
-        } else {
-            // Loading screen is already hidden, initialize map immediately
-            initializeMap();
-            setupLocateButton();
-        }
-    }, 100);
-});
-
 // Function to setup the locate button event listener
 function setupLocateButton() {
     const locateButton = document.getElementById('locateButton');
@@ -272,5 +245,30 @@ function setupLocateButton() {
         // Initialize button appearance
         updateButtonAppearance();
     }
+}
+
+// Export functions for use in main.js
+if (typeof module !== 'undefined' && module.exports) {
+    // Node.js environment
+    module.exports = { 
+        initializeMap, 
+        setupLocateButton, 
+        handleLocateUser, 
+        searchLocation, 
+        getCurrentLocation, 
+        isInAmsterdam,
+        updateButtonAppearance 
+    };
+} else {
+    // Browser environment - attach to window
+    window.MapFunctions = {
+        initializeMap, 
+        setupLocateButton, 
+        handleLocateUser, 
+        searchLocation, 
+        getCurrentLocation, 
+        isInAmsterdam,
+        updateButtonAppearance
+    };
 }
 

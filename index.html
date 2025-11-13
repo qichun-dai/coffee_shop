@@ -4,15 +4,19 @@
 <head>
     <title>Coffee Maps</title>
     <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- External Libraries -->
     <script src="https://unpkg.com/d3@7.8.5/dist/d3.min.js"></script>
-    <!-- <script src="./js/main.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
-    <script src="./js/coffee_data.js"></script>
-
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    
+    <!-- Application Scripts (load in order) -->
+    <script src="./js/create_map.js"></script>
+    <script src="./js/coffee_data.js"></script>
+    <script src="./js/main.js"></script>
    
 </head>
 
@@ -60,13 +64,13 @@
             <div class="flex_row">
                 <div class="flex_item locate">
                     <div id="searchContainer">
-                        <input type="text" id="locationInput" placeholder="Enter location">
+                        <input type="text" id="locationInput" placeholder="Enter location to find nearby coffee">
                         <button id="locateButton"></button>
                     </div>
                 </div>
                 <div class="flex_item filter">
                     <select id="locationFilter">
-                        <option value="">Select Area</option>
+                        <option value="">All</option>
                         <option value="Amsterdam Centrum">Centrum</option>
                         <option value="Amsterdam Zuid">Zuid</option>
                         <option value="Amsterdam West">West</option>
