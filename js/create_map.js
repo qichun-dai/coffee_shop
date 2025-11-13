@@ -1,3 +1,40 @@
+// Custom GPS Locate Control
+L.Control.GPSLocate = L.Control.extend({
+    onAdd: function(map) {
+        var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-gps');
+        
+        container.style.backgroundColor = 'white';
+        container.style.width = '30px';
+        container.style.height = '30px';
+        container.style.cursor = 'pointer';
+        container.style.border = '2px solid rgba(0,0,0,0.2)';
+        container.style.borderRadius = '4px';
+        container.style.boxShadow = '0 1px 5px rgba(0,0,0,0.4)';
+        container.style.backgroundImage = "url('../images/icons8-my-location-100.png')";
+        container.style.backgroundSize = '20px 20px';
+        container.style.backgroundRepeat = 'no-repeat';
+        container.style.backgroundPosition = 'center';
+        container.title = 'Find my current location';
+        
+        container.onclick = function(){
+            getCurrentLocation();
+        }
+        
+        // Prevent map events when clicking the button
+        L.DomEvent.disableClickPropagation(container);
+        
+        return container;
+    },
+
+    onRemove: function(map) {
+        // Nothing to do here
+    }
+});
+
+L.control.gpsLocate = function(opts) {
+    return new L.Control.GPSLocate(opts);
+}
+
 // Initialize map - will be called after loading screen
 function initializeMap() {
     if (document.getElementById('map')) {
@@ -9,6 +46,9 @@ function initializeMap() {
             maxZoom: 20,
             minZoom: 8 // Set minimum zoom to prevent zooming too far out
         }).addTo(map);
+
+        // Add the custom GPS locate control below zoom controls
+        L.control.gpsLocate({ position: 'topleft' }).addTo(map);
 
         // Make map globally accessible
         window.map = map;
@@ -33,7 +73,7 @@ function isInAmsterdam(lat, lng) {
            lng <= amsterdamBounds.east;
 }
 
-// Function to handle user location
+// Function to handle user location - now only searches for typed addresses
 function handleLocateUser() {
     const locationInput = document.getElementById('locationInput');
     const inputValue = locationInput.value.trim();
@@ -42,8 +82,8 @@ function handleLocateUser() {
         // User has typed a location, search for it
         searchLocation(inputValue);
     } else {
-        // Input is empty, get current location
-        getCurrentLocation();
+        // Input is empty, show alert asking user to type an address
+        alert('Please enter a location to search for.');
     }
 }
 
@@ -180,51 +220,29 @@ function getCurrentLocation() {
     );
 }
 
-// Function to update button appearance based on input content
+// Function to update button appearance - now always shows "Locate" text
 function updateButtonAppearance() {
     const locationInput = document.getElementById('locationInput');
     const locateButton = document.getElementById('locateButton');
-    const inputValue = locationInput.value.trim();
     
-    if (inputValue) {
-        // Input has text, show text button
-        locateButton.style.background = '#65451F';
-        locateButton.style.backgroundImage = 'none';
-        locateButton.style.color = 'white';
-        locateButton.style.fontSize = '12px';
-        locateButton.style.width = 'auto';
-        locateButton.style.minWidth = '80px';
-        locateButton.style.height = '25px';
-        locateButton.style.padding = '0 12px';
-        locateButton.style.borderRadius = '4px';
-        locateButton.style.right = '5px';
-        locateButton.style.transform = 'translateY(-50%)';
-        locateButton.style.display = 'flex';
-        locateButton.style.alignItems = 'center';
-        locateButton.style.justifyContent = 'center';
-        locateButton.style.lineHeight = '1';
-        locateButton.textContent = 'Locate';
-        locateButton.title = 'Search for this location';
-    } else {
-        // Input is empty, show blue navigation icon
-        locateButton.style.background = 'url("../images/icons8-my-location-100.png") no-repeat center center';
-        locateButton.style.backgroundSize = 'cover';
-        locateButton.style.color = 'transparent';
-        locateButton.style.fontSize = '';
-        locateButton.style.width = '25px';
-        locateButton.style.height = '25px';
-        locateButton.style.minWidth = '';
-        locateButton.style.padding = '';
-        locateButton.style.borderRadius = '0 4px 4px 0';
-        locateButton.style.right = '5px';
-        locateButton.style.transform = 'translateY(-50%)';
-        locateButton.style.display = 'block';
-        locateButton.style.alignItems = '';
-        locateButton.style.justifyContent = '';
-        locateButton.style.lineHeight = '';
-        locateButton.textContent = '';
-        locateButton.title = 'Find my current location';
-    }
+    // Always show text button for address search
+    locateButton.style.background = '#65451F';
+    locateButton.style.backgroundImage = 'none';
+    locateButton.style.color = 'white';
+    locateButton.style.fontSize = '12px';
+    locateButton.style.width = 'auto';
+    locateButton.style.minWidth = '80px';
+    locateButton.style.height = '25px';
+    locateButton.style.padding = '0 12px';
+    locateButton.style.borderRadius = '4px';
+    locateButton.style.right = '5px';
+    locateButton.style.transform = 'translateY(-50%)';
+    locateButton.style.display = 'flex';
+    locateButton.style.alignItems = 'center';
+    locateButton.style.justifyContent = 'center';
+    locateButton.style.lineHeight = '1';
+    locateButton.textContent = 'Locate';
+    locateButton.title = 'Search for location';
 }
 
 // Function to setup the locate button event listener

@@ -651,3 +651,19 @@ footer{
 	box-sizing: border-box;
 	
 }
+
+/* GPS Locate Button on Map */
+.leaflet-control-gps {
+    margin-top: 10px !important;
+    transition: all 0.2s ease !important;
+}
+
+.leaflet-control-gps:hover {
+    background-color: #f4f4f4 !important;
+    transform: scale(1.05);
+}
+
+.leaflet-control-gps:active {
+    background-color: #e0e0e0 !important;
+    transform: scale(0.95);
+}
