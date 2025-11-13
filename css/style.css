@@ -341,7 +341,7 @@ footer{
 }
 
 #locateButton {
-	background: url('../images/icons8-my-location-100.png') no-repeat center center;
+	background: url('./images/icons8-my-location-100.png') no-repeat center center;
 	background-size: cover;
 	border: none;
 	width: 25px;
@@ -380,7 +380,7 @@ footer{
 	height: 40px;
 	box-sizing: border-box;
 	appearance: none;
-	background: url('../images/icons8-expand-arrow-100.png') no-repeat right center;
+	background: url('./images/icons8-expand-arrow-100.png') no-repeat right center;
 	background-size: 15px 15px;
 	background-position: calc(100% - 5px) center;
 }
