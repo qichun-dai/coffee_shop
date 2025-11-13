@@ -49,7 +49,8 @@ class CoffeeShopLoader {
                 const trueCoffeeValue = (row[trueCoffeeKey] || '').replace(/"/g, '').trim();
                 const ratingCountValue = parseInt(row[userRatingCountKey], 10);
                 const adjustedRatingValue = parseFloat((row[adjustedRatingKey] || '').replace(/"/g, '').trim()) || 0;
-                if (!isNaN(lat) && !isNaN(lng) && trueCoffeeValue === '1' && ratingCountValue > 100 && adjustedRatingValue > 4.0) {
+                const displayName = (row[nameKey] || '').replace(/"/g, '').toLowerCase();
+                if (!isNaN(lat) && !isNaN(lng) && trueCoffeeValue === '1' && ratingCountValue > 100 && adjustedRatingValue > 4.0 && !displayName.includes('coffeeshop')) {
                     this.coffeeShops.push({
                         name: (row[nameKey] || '').replace(/"/g, '') || 'Unknown',
                         rating: parseFloat(row[ratingKey]) || 0,
