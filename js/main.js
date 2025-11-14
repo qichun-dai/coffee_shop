@@ -8,7 +8,7 @@ class CoffeeMapApp {
 
     // Initialize the entire application
     async init() {
-        console.log('Initializing Coffee Map Application...');
+   
         
         // Wait for DOM to be ready
         if (document.readyState === 'loading') {
@@ -26,7 +26,7 @@ class CoffeeMapApp {
 
     // Initialize map and location features
     initializeMap() {
-        console.log('Setting up map...');
+        
         
         // Wait for loading screen to finish before initializing map
         setTimeout(() => {

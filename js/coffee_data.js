@@ -8,13 +8,13 @@ class CoffeeShopLoader {
 
     async loadCoffeeData() {
         try {
-            console.log('Loading coffee data...');
+       
             const response = await fetch('./data/coffee_shops_stars_20251021_163739.csv');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             const csvText = await response.text();
-            console.log('CSV loaded, first 200 chars:', csvText.substring(0, 200));
+            
 
             // Use PapaParse for robust CSV parsing
             if (typeof Papa === 'undefined') {
@@ -22,9 +22,9 @@ class CoffeeShopLoader {
                 return [];
             }
             const parsed = Papa.parse(csvText, { header: true, skipEmptyLines: true });
-            console.log('PapaParse result:', parsed);
+            
             const data = parsed.data;
-            console.log('CSV row count (excluding header):', data.length);
+  
 
             // Find the keys for the columns we need
             const headers = parsed.meta.fields;
@@ -39,8 +39,7 @@ class CoffeeShopLoader {
             const typeKey = headers.find(h => h.includes('primaryType'));
             const adjustedRatingKey = headers.find(h => h.includes('adjustedRating'));
             const neighborhoodKey = headers.find(h => h.includes('neighborhood'));
-            console.log('Column keys:', { nameKey, ratingKey, latKey, lngKey, addressKey, userRatingCountKey, typeKey, adjustedRatingKey, trueCoffeeKey, placeUriKey, neighborhoodKey });
-
+            
             let skippedRows = 0;
             this.coffeeShops = [];
             data.forEach((row, i) => {
@@ -66,7 +65,7 @@ class CoffeeShopLoader {
                     });
                 } 
             });
-            console.log(`Loaded ${this.coffeeShops.length} coffee shops (skipped ${skippedRows} rows)`);
+            
             return this.coffeeShops;
             
         } catch (error) {
@@ -177,13 +176,13 @@ class CoffeeShopLoader {
             
             // Add click event using multiple approaches to ensure it works
             marker.on('click', (e) => {
-                console.log('Marker clicked for:', shop.name);
+                
                 this.scrollToTableRow(shop);
             });
             
             // Also try popupopen event as backup
             marker.on('popupopen', (e) => {
-                console.log('Popup opened for:', shop.name);
+                
                 this.scrollToTableRow(shop);
             });
             
@@ -331,13 +330,14 @@ class CoffeeShopLoader {
             
             // Add click event using multiple approaches
             marker.on('click', (e) => {
-                console.log('Filtered marker clicked for:', shop.name);
+                
                 this.scrollToTableRow(shop);
             });
             
             // Also try popupopen event as backup
             marker.on('popupopen', (e) => {
-                console.log('Filtered popup opened for:', shop.name);
+                
+                
                 this.scrollToTableRow(shop);
             });
             
@@ -414,13 +414,13 @@ class CoffeeShopLoader {
                 
                 // Add click event using multiple approaches
                 marker.on('click', (e) => {
-                    console.log('Neighborhood filtered marker clicked for:', shop.name);
+                    
                     this.scrollToTableRow(shop);
                 });
                 
                 // Also try popupopen event as backup
                 marker.on('popupopen', (e) => {
-                    console.log('Neighborhood filtered popup opened for:', shop.name);
+                    
                     this.scrollToTableRow(shop);
                 });
                 
@@ -821,7 +821,7 @@ class LoadingController {
             tbody.appendChild(row);
         });
         
-        console.log(`Table updated with ${filteredShops.length} shops for neighborhood: ${neighborhood || 'All'}`);
+        
     }
 
     updateTable(coffeeLoader, minRating = 0) {
