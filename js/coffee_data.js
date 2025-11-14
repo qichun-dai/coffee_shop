@@ -209,33 +209,17 @@ class CoffeeShopLoader {
             map.fitBounds(group.getBounds().pad(0.1)); // Better padding for optimal icon visibility
         }
         
-        // Add global debug function for testing
-        window.testScrollToRow = () => {
-            if (this.coffeeShops.length > 0) {
-                console.log('Testing scroll with first shop:', this.coffeeShops[0].name);
-                this.scrollToTableRow(this.coffeeShops[0]);
-            }
-        };
-        
-        console.log('Markers created. Test with: window.testScrollToRow()');
     }
 
     // Function to scroll to and highlight table row for a specific shop
     scrollToTableRow(targetShop) {
-        console.log('Attempting to scroll to shop:', targetShop.name);
-        
         // Wait a bit for the DOM to be ready
         setTimeout(() => {
             const tableContainer = document.querySelector('.table-container');
             const table = document.querySelector('.coffee-table');
             const tableRows = document.querySelectorAll('.coffee-table tbody tr');
             
-            console.log('Table container found:', !!tableContainer);
-            console.log('Table found:', !!table);
-            console.log('Number of table rows found:', tableRows.length);
-            
             if (!tableContainer || !tableRows.length) {
-                console.log('Table or rows not found, retrying...');
                 return;
             }
             
@@ -254,19 +238,15 @@ class CoffeeShopLoader {
                 if (nameLink) {
                     const rowShopName = nameLink.textContent.trim();
                     const targetShopName = targetShop.name.trim();
-                    console.log(`Comparing row ${index}: "${rowShopName}" vs "${targetShopName}"`);
                     
                     if (rowShopName === targetShopName) {
                         targetRow = row;
                         rowIndex = index;
-                        console.log('Found matching row at index:', index);
                     }
                 }
             });
             
             if (targetRow) {
-                console.log('Highlighting and scrolling to row');
-                
                 // Add highlight class and inline style for immediate effect
                 targetRow.classList.add('highlighted-row');
                 targetRow.style.backgroundColor = '#FFE4B5';
@@ -282,13 +262,6 @@ class CoffeeShopLoader {
                 // Calculate target scroll position to center the row
                 const targetScrollTop = scrollTop + rowTop - containerTop - (containerRect.height / 2) + (rowRect.height / 2);
                 
-                console.log('Scroll calculation:', {
-                    scrollTop,
-                    containerTop,
-                    rowTop,
-                    targetScrollTop
-                });
-                
                 // Smooth scroll to the target row
                 tableContainer.scrollTo({
                     top: Math.max(0, targetScrollTop),
@@ -300,17 +273,7 @@ class CoffeeShopLoader {
                     targetRow.classList.remove('highlighted-row');
                     targetRow.style.backgroundColor = '';
                     targetRow.style.boxShadow = '';
-                    console.log('Highlight removed');
                 }, 4000);
-            } else {
-                console.log('No matching row found for shop:', targetShop.name);
-                console.log('Available shop names in table:');
-                tableRows.forEach((row, index) => {
-                    const nameLink = row.querySelector('td:first-child a');
-                    if (nameLink) {
-                        console.log(`  ${index}: "${nameLink.textContent.trim()}"`);
-                    }
-                });
             }
         }, 100); // Small delay to ensure DOM is ready
     }
@@ -639,7 +602,6 @@ class LoadingController {
         if (locationFilter) {
             locationFilter.addEventListener('change', (e) => {
                 const selectedNeighborhood = e.target.value;
-                console.log('Neighborhood filter changed to:', selectedNeighborhood);
                 
                 if (selectedNeighborhood === '') {
                     // Show all coffee shops and zoom to fit all
@@ -649,11 +611,8 @@ class LoadingController {
                     // Filter by selected neighborhood and zoom to fit the filtered area
                     const filteredShops = coffeeLoader.filterByNeighborhood(selectedNeighborhood);
                     this.updateTableForNeighborhood(coffeeLoader, selectedNeighborhood);
-                    console.log(`Filtered to ${filteredShops.length} shops in ${selectedNeighborhood}`);
                 }
             });
-            
-            console.log('Neighborhood filter event listener added');
         } else {
             console.error('locationFilter element not found');
         }
